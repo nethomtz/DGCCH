@@ -8,6 +8,3 @@ C:\Users\soporte\Documents\Visual Studio 2017\Projects\WindowsFormsApp2\WindowsF
 C:\Users\soporte\Documents\Visual Studio 2017\Projects\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
 C:\Users\soporte\Documents\Visual Studio 2017\Projects\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
 C:\Users\soporte\Documents\Visual Studio 2017\Projects\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
-C:\Users\Programador\Documents\GitHub\DGCCH\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csprojAssemblyReference.cache
-C:\Users\Programador\Documents\GitHub\DGCCH\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
-C:\Users\Programador\Documents\GitHub\DGCCH\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb

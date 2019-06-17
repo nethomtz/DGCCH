@@ -10,9 +10,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-using System.Data.SqlTypes;
-using System.Data.Sql;
-
 
 
 
@@ -25,7 +22,37 @@ namespace Loginprueba
         {
             InitializeComponent();
         }
+        SqlConnection con = new SqlConnection(@"Data Source=(localdb)\Servidor;Initial Catalog=registroprueba;Integrated Security=True");
+        public void logear (string idusuario, string RFC)
+        {
+            try
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand ("SELECT Nombre, Categoria From datosUsuario WEHERE idtrabajador = @idusuario AND RFC = @RFC", con);
+                cmd.Parameters.AddWithValue("idusuario", idusuario);
+                cmd.Parameters.AddWithValue("RFC", RFC);
+                SqlDataAdapter sda = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                sda.Fill(dt);
 
+                if (dt.Rows.Count == 1){
+                    dt.Rows[0][0].ToString();
+                    this.Hide();
+                    new datosPersonales(dt.Rows[0][0].ToString()).Show();
+                    
+                }else {
+                    MessageBox.Show("ID Trabajador y/o RFC INCORRECTA");
+                }
+            }catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+           
+        }
         private void TextBox1_TextChanged(object sender, EventArgs e)
         {
 
@@ -33,22 +60,13 @@ namespace Loginprueba
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            Dim conexion As String = "Data Source=(localdb)\Servidor;Initial Catalog=registroprueba;Integrated Security=True";
-            Dim net As New SqlDataAdapter;
-            Dim dt As DataTable;
-            Dim comando As String = "select *from datosUsuario where idtrabajador = '" & Textidusuario.Text & "' and RFC = '" & TextRFC.Text & ""
-            
-            Try
-                net = New SqlDataAdapter(comando, conexion)
-            Catch ex As Exception
-                MsgBox(ex.)
-                   
-
+            logear(this.Textidusuario.Text,this.TextRFC.Text);
         }
 
         private void Label1_Click(object sender, EventArgs e)
         {
 
         }
+    
     }
 }
