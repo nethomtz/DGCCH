@@ -7,15 +7,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Loginprueba
 {
     public partial class datosPersonales : Form
     {
-        public datosPersonales(string Nombre)
+        public actualizar(string Telefono, string Correo, string Direccion)
+
+        public datosPersonales(string Nombre, string Categoria , string Plantel, string Correo, string Direccion, string Celular)
         {
             InitializeComponent();
             label7.Text = Nombre;
+            label8.Text = Categoria;
+            label9.Text = Plantel;
+            textBox2.Text = Celular;
+            textBox3.Text = Correo;
+            textBox4.Text = Direccion;
+
         }
         public datosPersonales()
         {
@@ -33,6 +42,11 @@ namespace Loginprueba
         }
 
         private void Label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
         {
 
         }

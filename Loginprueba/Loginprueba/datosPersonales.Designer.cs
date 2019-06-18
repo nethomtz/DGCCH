@@ -61,21 +61,21 @@
             // 
             this.textBox4.Location = new System.Drawing.Point(282, 345);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
+            this.textBox4.Size = new System.Drawing.Size(164, 20);
             this.textBox4.TabIndex = 30;
             // 
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(282, 294);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
+            this.textBox3.Size = new System.Drawing.Size(164, 20);
             this.textBox3.TabIndex = 29;
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(282, 246);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.Size = new System.Drawing.Size(164, 20);
             this.textBox2.TabIndex = 28;
             this.textBox2.TextChanged += new System.EventHandler(this.TextBox2_TextChanged);
             // 
@@ -109,7 +109,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(407, 416);
+            this.button2.Location = new System.Drawing.Point(329, 415);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 24;
@@ -118,12 +118,13 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(248, 416);
+            this.button1.Location = new System.Drawing.Point(461, 294);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 23;
             this.button1.Text = "Actualizar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // label6
             // 
