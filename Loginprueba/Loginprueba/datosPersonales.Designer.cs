@@ -45,6 +45,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -189,11 +191,32 @@
             this.label1.TabIndex = 16;
             this.label1.Text = "Nombre:";
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(0, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(41, 13);
+            this.label10.TabIndex = 32;
+            this.label10.Text = "label10";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(423, 5);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(41, 13);
+            this.label11.TabIndex = 33;
+            this.label11.Text = "label11";
+            this.label11.Click += new System.EventHandler(this.Label11_Click);
+            // 
             // datosPersonales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
@@ -237,5 +260,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
     }
 }
