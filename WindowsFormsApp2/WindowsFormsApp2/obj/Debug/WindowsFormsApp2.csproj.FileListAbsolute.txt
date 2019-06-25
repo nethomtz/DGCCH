@@ -8,6 +8,7 @@ C:\Users\soporte\Documents\Visual Studio 2017\Projects\WindowsFormsApp2\WindowsF
 C:\Users\soporte\Documents\Visual Studio 2017\Projects\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
 C:\Users\soporte\Documents\Visual Studio 2017\Projects\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
 C:\Users\soporte\Documents\Visual Studio 2017\Projects\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+<<<<<<< HEAD
 C:\Users\Programador\Documents\GitHub\DGCCH\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csprojAssemblyReference.cache
 C:\Users\Programador\Documents\GitHub\DGCCH\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
 C:\Users\Programador\Documents\GitHub\DGCCH\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
@@ -22,3 +23,5 @@ C:\Users\soporte\Desktop\SS\DGCCH\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\Wi
 C:\Users\soporte\Desktop\SS\DGCCH\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
 C:\Users\soporte\Desktop\SS\DGCCH\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
 C:\Users\soporte\Desktop\SS\DGCCH\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+=======
+>>>>>>> e87cba265d5179bcacd617072084e02884444ccd
