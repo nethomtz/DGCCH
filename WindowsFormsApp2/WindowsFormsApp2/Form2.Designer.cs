@@ -31,9 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.direccion = new System.Windows.Forms.TextBox();
+            this.correo = new System.Windows.Forms.TextBox();
+            this.telefono = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -42,10 +42,11 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.Trabajador = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -66,29 +67,29 @@
             this.pictureBox1.TabIndex = 31;
             this.pictureBox1.TabStop = false;
             // 
-            // textBox4
+            // direccion
             // 
-            this.textBox4.Location = new System.Drawing.Point(305, 421);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(125, 20);
-            this.textBox4.TabIndex = 30;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            this.direccion.Location = new System.Drawing.Point(305, 421);
+            this.direccion.Name = "direccion";
+            this.direccion.Size = new System.Drawing.Size(125, 20);
+            this.direccion.TabIndex = 30;
+            this.direccion.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
-            // textBox3
+            // correo
             // 
-            this.textBox3.Location = new System.Drawing.Point(305, 370);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(125, 20);
-            this.textBox3.TabIndex = 29;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.correo.Location = new System.Drawing.Point(305, 370);
+            this.correo.Name = "correo";
+            this.correo.Size = new System.Drawing.Size(125, 20);
+            this.correo.TabIndex = 29;
+            this.correo.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
-            // textBox2
+            // telefono
             // 
-            this.textBox2.Location = new System.Drawing.Point(305, 322);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(125, 20);
-            this.textBox2.TabIndex = 28;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.telefono.Location = new System.Drawing.Point(305, 322);
+            this.telefono.Name = "telefono";
+            this.telefono.Size = new System.Drawing.Size(125, 20);
+            this.telefono.TabIndex = 28;
+            this.telefono.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label9
             // 
@@ -163,15 +164,6 @@
             this.label4.TabIndex = 20;
             this.label4.Text = "Telefono:";
             // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.textBox1.Location = new System.Drawing.Point(328, 245);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(124, 20);
-            this.textBox1.TabIndex = 19;
-            this.textBox1.Text = "DATOS PERSONALES";
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -199,15 +191,36 @@
             this.label10.TabIndex = 16;
             this.label10.Text = "Nombre:";
             // 
+            // Trabajador
+            // 
+            this.Trabajador.AutoSize = true;
+            this.Trabajador.Location = new System.Drawing.Point(626, 132);
+            this.Trabajador.Name = "Trabajador";
+            this.Trabajador.Size = new System.Drawing.Size(41, 13);
+            this.Trabajador.TabIndex = 32;
+            this.Trabajador.Text = "label11";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(330, 256);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(119, 13);
+            this.label11.TabIndex = 33;
+            this.label11.Text = "DATOS PERSONALES";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 559);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.Trabajador);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.direccion);
+            this.Controls.Add(this.correo);
+            this.Controls.Add(this.telefono);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -216,7 +229,6 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label10);
@@ -234,9 +246,9 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox direccion;
+        private System.Windows.Forms.TextBox correo;
+        private System.Windows.Forms.TextBox telefono;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
@@ -245,9 +257,10 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label Trabajador;
+        private System.Windows.Forms.Label label11;
     }
 }
