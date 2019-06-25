@@ -21,24 +21,24 @@ namespace Loginprueba
             
             con.Open();
             //SqlCommand cmd = new SqlCommand("UPDATE datosUsuario set correo, telefono, direccion WHERE  Correo = @correo, Telefono = @telefono, Direccion = @direccion", con);//
-            SqlCommand cmd = new SqlCommand("Update datosUsuario set @correo = correo , @telefono = telefono, @direccion = direccion WHERE @idtrabajador = idusuario", con);
+            SqlCommand cmd = new SqlCommand("Update datosUsuario set @correo = correo , @telefono = telefono, @direccion = direccion WHERE idtrabajador = @idusuario;", con) ;
 
             cmd.CommandType = System.Data.CommandType.Text;
             cmd.Connection = con;
-            cmd.Parameters.AddWithValue("Correo", correo);
-            cmd.Parameters.AddWithValue("Telefono", telefono);
-            cmd.Parameters.AddWithValue("Direccion", direccion);
+            cmd.Parameters.AddWithValue("@correo", correo);
+            cmd.Parameters.AddWithValue("@telefono", telefono);
+            cmd.Parameters.AddWithValue("@direccion", direccion);
             SqlDataAdapter sda = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             sda.Update(dt);
-            cmd.ExecuteNonQuery();
-            con.Close();
             InitializeComponent();
             textBox2.Text = telefono;
             textBox3.Text = correo;
             textBox4.Text = direccion;
-            
-            
+            _ = cmd.ExecuteNonQuery();
+            con.Close();
+
+
         }
         public datosPersonales(string Nombre, string Categoria , string Plantel, string Correo, string Direccion, string Celular , string idtrabajador)
         {
@@ -78,6 +78,16 @@ namespace Loginprueba
         }
 
         private void Label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label12_Click(object sender, EventArgs e)
         {
 
         }

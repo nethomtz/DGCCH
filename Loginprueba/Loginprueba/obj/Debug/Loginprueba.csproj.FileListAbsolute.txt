@@ -3,7 +3,6 @@ C:\Users\Programador\Documents\GitHub\DGCCH\Loginprueba\Loginprueba\obj\Debug\Lo
 C:\Users\Programador\Documents\GitHub\DGCCH\Loginprueba\Loginprueba\obj\Debug\Loginprueba.csproj.GenerateResource.cache
 C:\Users\Programador\Documents\GitHub\DGCCH\Loginprueba\Loginprueba\obj\Debug\Loginprueba.csproj.CoreCompileInputs.cache
 C:\Users\Programador\Documents\GitHub\DGCCH\Loginprueba\Loginprueba\obj\Debug\Loginprueba.datosPersonales.resources
-C:\Users\Programador\Documents\GitHub\DGCCH\Loginprueba\Loginprueba\obj\Debug\WindowsFormsApp3.Principal.resources
 C:\Users\Programador\Documents\GitHub\DGCCH\Loginprueba\Loginprueba\bin\Debug\Loginprueba.exe.config
 C:\Users\Programador\Documents\GitHub\DGCCH\Loginprueba\Loginprueba\bin\Debug\Loginprueba.exe
 C:\Users\Programador\Documents\GitHub\DGCCH\Loginprueba\Loginprueba\bin\Debug\Loginprueba.pdb
