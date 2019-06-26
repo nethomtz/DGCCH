@@ -48,5 +48,15 @@ namespace Menu
         {
 
         }
+
+        private void label29_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label48_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
