@@ -11,3 +11,21 @@ C:\Users\soporte\Documents\Visual Studio 2017\Projects\Menu\Menu\obj\Debug\Menu.
 C:\Users\soporte\Documents\Visual Studio 2017\Projects\Menu\Menu\obj\Debug\Menu.Form2.resources
 C:\Users\soporte\Documents\Visual Studio 2017\Projects\Menu\Menu\obj\Debug\Menu.Form3.resources
 C:\Users\soporte\Documents\Visual Studio 2017\Projects\Menu\Menu\obj\Debug\Menu.Concurso.resources
+C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\bin\Debug\Menu.exe.config
+C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\bin\Debug\Menu.exe
+C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\bin\Debug\Menu.pdb
+C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\obj\Debug\Menu.csprojAssemblyReference.cache
+C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\obj\Debug\Menu.csproj.ResolveComReference.cache
+C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\obj\Debug\Menu.Form1.resources
+C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\obj\Debug\Menu.Concurso.resources
+C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\obj\Debug\Menu.Form2.resources
+C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\obj\Debug\Menu.Form3.resources
+C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\obj\Debug\Menu.Properties.Resources.resources
+C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\obj\Debug\Menu.csproj.GenerateResource.cache
+C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\obj\Debug\Menu.csproj.CoreCompileInputs.cache
+C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\obj\Debug\Menu.exe
+C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\obj\Debug\Menu.pdb

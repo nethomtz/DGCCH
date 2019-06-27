@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.button21 = new System.Windows.Forms.Button();
@@ -93,64 +94,80 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
+            this.button48 = new System.Windows.Forms.Button();
+            this.button47 = new System.Windows.Forms.Button();
             this.button23 = new System.Windows.Forms.Button();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.button24 = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
-            this.label33 = new System.Windows.Forms.Label();
-            this.button26 = new System.Windows.Forms.Button();
-            this.label34 = new System.Windows.Forms.Label();
-            this.button27 = new System.Windows.Forms.Button();
-            this.label35 = new System.Windows.Forms.Label();
-            this.button28 = new System.Windows.Forms.Button();
-            this.label36 = new System.Windows.Forms.Label();
-            this.button29 = new System.Windows.Forms.Button();
-            this.label37 = new System.Windows.Forms.Label();
-            this.button30 = new System.Windows.Forms.Button();
-            this.label38 = new System.Windows.Forms.Label();
-            this.button31 = new System.Windows.Forms.Button();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.button32 = new System.Windows.Forms.Button();
-            this.button33 = new System.Windows.Forms.Button();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
-            this.button34 = new System.Windows.Forms.Button();
-            this.button35 = new System.Windows.Forms.Button();
-            this.button36 = new System.Windows.Forms.Button();
-            this.button37 = new System.Windows.Forms.Button();
-            this.button38 = new System.Windows.Forms.Button();
-            this.label50 = new System.Windows.Forms.Label();
-            this.button39 = new System.Windows.Forms.Button();
-            this.label51 = new System.Windows.Forms.Label();
+            this.button46 = new System.Windows.Forms.Button();
+            this.button45 = new System.Windows.Forms.Button();
+            this.button44 = new System.Windows.Forms.Button();
+            this.label55 = new System.Windows.Forms.Label();
+            this.button42 = new System.Windows.Forms.Button();
+            this.button43 = new System.Windows.Forms.Button();
+            this.label56 = new System.Windows.Forms.Label();
             this.button40 = new System.Windows.Forms.Button();
             this.button41 = new System.Windows.Forms.Button();
             this.label52 = new System.Windows.Forms.Label();
             this.label53 = new System.Windows.Forms.Label();
             this.label54 = new System.Windows.Forms.Label();
-            this.button42 = new System.Windows.Forms.Button();
-            this.button43 = new System.Windows.Forms.Button();
-            this.label56 = new System.Windows.Forms.Label();
-            this.button44 = new System.Windows.Forms.Button();
-            this.label55 = new System.Windows.Forms.Label();
-            this.button45 = new System.Windows.Forms.Button();
-            this.button46 = new System.Windows.Forms.Button();
-            this.button47 = new System.Windows.Forms.Button();
-            this.button48 = new System.Windows.Forms.Button();
+            this.button39 = new System.Windows.Forms.Button();
+            this.label51 = new System.Windows.Forms.Label();
+            this.button38 = new System.Windows.Forms.Button();
+            this.label50 = new System.Windows.Forms.Label();
+            this.button37 = new System.Windows.Forms.Button();
+            this.button36 = new System.Windows.Forms.Button();
+            this.button35 = new System.Windows.Forms.Button();
+            this.button34 = new System.Windows.Forms.Button();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label48 = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.button33 = new System.Windows.Forms.Button();
+            this.button32 = new System.Windows.Forms.Button();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.button31 = new System.Windows.Forms.Button();
+            this.label39 = new System.Windows.Forms.Label();
+            this.button30 = new System.Windows.Forms.Button();
+            this.label38 = new System.Windows.Forms.Label();
+            this.button29 = new System.Windows.Forms.Button();
+            this.label37 = new System.Windows.Forms.Label();
+            this.button28 = new System.Windows.Forms.Button();
+            this.label36 = new System.Windows.Forms.Label();
+            this.button27 = new System.Windows.Forms.Button();
+            this.label35 = new System.Windows.Forms.Label();
+            this.button26 = new System.Windows.Forms.Button();
+            this.label34 = new System.Windows.Forms.Label();
+            this.button25 = new System.Windows.Forms.Button();
+            this.label33 = new System.Windows.Forms.Label();
+            this.button24 = new System.Windows.Forms.Button();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.button65 = new System.Windows.Forms.Button();
+            this.button66 = new System.Windows.Forms.Button();
+            this.button57 = new System.Windows.Forms.Button();
+            this.label66 = new System.Windows.Forms.Label();
+            this.button58 = new System.Windows.Forms.Button();
+            this.label67 = new System.Windows.Forms.Label();
+            this.button59 = new System.Windows.Forms.Button();
+            this.label68 = new System.Windows.Forms.Label();
+            this.button60 = new System.Windows.Forms.Button();
+            this.label69 = new System.Windows.Forms.Label();
+            this.button61 = new System.Windows.Forms.Button();
+            this.label70 = new System.Windows.Forms.Label();
+            this.button62 = new System.Windows.Forms.Button();
+            this.label71 = new System.Windows.Forms.Label();
+            this.button63 = new System.Windows.Forms.Button();
+            this.label72 = new System.Windows.Forms.Label();
+            this.button64 = new System.Windows.Forms.Button();
+            this.label73 = new System.Windows.Forms.Label();
             this.button49 = new System.Windows.Forms.Button();
             this.label57 = new System.Windows.Forms.Label();
             this.button50 = new System.Windows.Forms.Button();
@@ -168,30 +185,25 @@
             this.button56 = new System.Windows.Forms.Button();
             this.label64 = new System.Windows.Forms.Label();
             this.label65 = new System.Windows.Forms.Label();
-            this.button57 = new System.Windows.Forms.Button();
-            this.label66 = new System.Windows.Forms.Label();
-            this.button58 = new System.Windows.Forms.Button();
-            this.label67 = new System.Windows.Forms.Label();
-            this.button59 = new System.Windows.Forms.Button();
-            this.label68 = new System.Windows.Forms.Label();
-            this.button60 = new System.Windows.Forms.Button();
-            this.label69 = new System.Windows.Forms.Label();
-            this.button61 = new System.Windows.Forms.Button();
-            this.label70 = new System.Windows.Forms.Label();
-            this.button62 = new System.Windows.Forms.Button();
-            this.label71 = new System.Windows.Forms.Label();
-            this.button63 = new System.Windows.Forms.Button();
-            this.label72 = new System.Windows.Forms.Label();
-            this.button64 = new System.Windows.Forms.Button();
-            this.label73 = new System.Windows.Forms.Label();
-            this.button65 = new System.Windows.Forms.Button();
-            this.button66 = new System.Windows.Forms.Button();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.comboBox9 = new System.Windows.Forms.ComboBox();
             this.button67 = new System.Windows.Forms.Button();
             this.button68 = new System.Windows.Forms.Button();
             this.button69 = new System.Windows.Forms.Button();
             this.label74 = new System.Windows.Forms.Label();
             this.label75 = new System.Windows.Forms.Label();
-            this.comboBox9 = new System.Windows.Forms.ComboBox();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.button70 = new System.Windows.Forms.Button();
+            this.button71 = new System.Windows.Forms.Button();
+            this.button89 = new System.Windows.Forms.Button();
+            this.label94 = new System.Windows.Forms.Label();
+            this.label93 = new System.Windows.Forms.Label();
+            this.label92 = new System.Windows.Forms.Label();
+            this.button86 = new System.Windows.Forms.Button();
+            this.button87 = new System.Windows.Forms.Button();
+            this.button88 = new System.Windows.Forms.Button();
+            this.label91 = new System.Windows.Forms.Label();
+            this.label90 = new System.Windows.Forms.Label();
             this.button72 = new System.Windows.Forms.Button();
             this.label76 = new System.Windows.Forms.Label();
             this.button73 = new System.Windows.Forms.Button();
@@ -220,24 +232,18 @@
             this.label88 = new System.Windows.Forms.Label();
             this.button85 = new System.Windows.Forms.Button();
             this.label89 = new System.Windows.Forms.Label();
-            this.label90 = new System.Windows.Forms.Label();
-            this.button86 = new System.Windows.Forms.Button();
-            this.button87 = new System.Windows.Forms.Button();
-            this.button88 = new System.Windows.Forms.Button();
-            this.label91 = new System.Windows.Forms.Label();
-            this.label92 = new System.Windows.Forms.Label();
-            this.label93 = new System.Windows.Forms.Label();
-            this.label94 = new System.Windows.Forms.Label();
-            this.button70 = new System.Windows.Forms.Button();
-            this.button71 = new System.Windows.Forms.Button();
-            this.button89 = new System.Windows.Forms.Button();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.axAcroPDF1 = new AxAcroPDFLib.AxAcroPDF();
+            this.axAcroPDF2 = new AxAcroPDFLib.AxAcroPDF();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage3.SuspendLayout();
+            this.tabPage4.SuspendLayout();
             this.tabPage5.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.tabPage7.SuspendLayout();
-            this.tabPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axAcroPDF1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axAcroPDF2)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -260,6 +266,8 @@
             // 
             this.tabPage1.AutoScroll = true;
             this.tabPage1.BackColor = System.Drawing.Color.White;
+            this.tabPage1.Controls.Add(this.axAcroPDF2);
+            this.tabPage1.Controls.Add(this.axAcroPDF1);
             this.tabPage1.Controls.Add(this.button21);
             this.tabPage1.Controls.Add(this.button22);
             this.tabPage1.Controls.Add(this.button19);
@@ -346,6 +354,7 @@
             this.button22.TabIndex = 68;
             this.button22.Text = "Guadar";
             this.button22.UseVisualStyleBackColor = true;
+            this.button22.Click += new System.EventHandler(this.Button22_Click);
             // 
             // button19
             // 
@@ -910,125 +919,32 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "c) Antecedentes académicos y profesionales";
             // 
-            // tabPage5
+            // button48
             // 
-            this.tabPage5.AutoScroll = true;
-            this.tabPage5.Controls.Add(this.button65);
-            this.tabPage5.Controls.Add(this.button66);
-            this.tabPage5.Controls.Add(this.button57);
-            this.tabPage5.Controls.Add(this.label66);
-            this.tabPage5.Controls.Add(this.button58);
-            this.tabPage5.Controls.Add(this.label67);
-            this.tabPage5.Controls.Add(this.button59);
-            this.tabPage5.Controls.Add(this.label68);
-            this.tabPage5.Controls.Add(this.button60);
-            this.tabPage5.Controls.Add(this.label69);
-            this.tabPage5.Controls.Add(this.button61);
-            this.tabPage5.Controls.Add(this.label70);
-            this.tabPage5.Controls.Add(this.button62);
-            this.tabPage5.Controls.Add(this.label71);
-            this.tabPage5.Controls.Add(this.button63);
-            this.tabPage5.Controls.Add(this.label72);
-            this.tabPage5.Controls.Add(this.button64);
-            this.tabPage5.Controls.Add(this.label73);
-            this.tabPage5.Controls.Add(this.button49);
-            this.tabPage5.Controls.Add(this.label57);
-            this.tabPage5.Controls.Add(this.button50);
-            this.tabPage5.Controls.Add(this.label58);
-            this.tabPage5.Controls.Add(this.button51);
-            this.tabPage5.Controls.Add(this.label59);
-            this.tabPage5.Controls.Add(this.button52);
-            this.tabPage5.Controls.Add(this.label60);
-            this.tabPage5.Controls.Add(this.button53);
-            this.tabPage5.Controls.Add(this.label61);
-            this.tabPage5.Controls.Add(this.button54);
-            this.tabPage5.Controls.Add(this.label62);
-            this.tabPage5.Controls.Add(this.button55);
-            this.tabPage5.Controls.Add(this.label63);
-            this.tabPage5.Controls.Add(this.button56);
-            this.tabPage5.Controls.Add(this.label64);
-            this.tabPage5.Controls.Add(this.label65);
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(944, 971);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "e)Labor académica-Administrativa";
-            this.tabPage5.UseVisualStyleBackColor = true;
+            this.button48.Location = new System.Drawing.Point(269, 628);
+            this.button48.Name = "button48";
+            this.button48.Size = new System.Drawing.Size(75, 23);
+            this.button48.TabIndex = 4;
+            this.button48.Text = "Guardar";
+            this.button48.UseVisualStyleBackColor = true;
             // 
-            // tabPage6
+            // button47
             // 
-            this.tabPage6.Controls.Add(this.comboBox9);
-            this.tabPage6.Controls.Add(this.button67);
-            this.tabPage6.Controls.Add(this.button68);
-            this.tabPage6.Controls.Add(this.button69);
-            this.tabPage6.Controls.Add(this.label74);
-            this.tabPage6.Controls.Add(this.label75);
-            this.tabPage6.Location = new System.Drawing.Point(4, 22);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Size = new System.Drawing.Size(944, 971);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "f)Antigüedad en la UNAM";
-            this.tabPage6.UseVisualStyleBackColor = true;
+            this.button47.Location = new System.Drawing.Point(592, 628);
+            this.button47.Name = "button47";
+            this.button47.Size = new System.Drawing.Size(75, 23);
+            this.button47.TabIndex = 3;
+            this.button47.Text = "Siguiente";
+            this.button47.UseVisualStyleBackColor = true;
             // 
-            // tabPage7
+            // button23
             // 
-            this.tabPage7.AutoScroll = true;
-            this.tabPage7.Controls.Add(this.button70);
-            this.tabPage7.Controls.Add(this.button71);
-            this.tabPage7.Controls.Add(this.button89);
-            this.tabPage7.Controls.Add(this.label94);
-            this.tabPage7.Controls.Add(this.label93);
-            this.tabPage7.Controls.Add(this.label92);
-            this.tabPage7.Controls.Add(this.button86);
-            this.tabPage7.Controls.Add(this.button87);
-            this.tabPage7.Controls.Add(this.button88);
-            this.tabPage7.Controls.Add(this.label91);
-            this.tabPage7.Controls.Add(this.label90);
-            this.tabPage7.Controls.Add(this.button72);
-            this.tabPage7.Controls.Add(this.label76);
-            this.tabPage7.Controls.Add(this.button73);
-            this.tabPage7.Controls.Add(this.label77);
-            this.tabPage7.Controls.Add(this.button74);
-            this.tabPage7.Controls.Add(this.label78);
-            this.tabPage7.Controls.Add(this.button75);
-            this.tabPage7.Controls.Add(this.label79);
-            this.tabPage7.Controls.Add(this.button76);
-            this.tabPage7.Controls.Add(this.label80);
-            this.tabPage7.Controls.Add(this.button77);
-            this.tabPage7.Controls.Add(this.label81);
-            this.tabPage7.Controls.Add(this.button78);
-            this.tabPage7.Controls.Add(this.label82);
-            this.tabPage7.Controls.Add(this.button79);
-            this.tabPage7.Controls.Add(this.label83);
-            this.tabPage7.Controls.Add(this.button80);
-            this.tabPage7.Controls.Add(this.label84);
-            this.tabPage7.Controls.Add(this.button81);
-            this.tabPage7.Controls.Add(this.label85);
-            this.tabPage7.Controls.Add(this.button82);
-            this.tabPage7.Controls.Add(this.label86);
-            this.tabPage7.Controls.Add(this.button83);
-            this.tabPage7.Controls.Add(this.label87);
-            this.tabPage7.Controls.Add(this.button84);
-            this.tabPage7.Controls.Add(this.label88);
-            this.tabPage7.Controls.Add(this.button85);
-            this.tabPage7.Controls.Add(this.label89);
-            this.tabPage7.Location = new System.Drawing.Point(4, 22);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(944, 971);
-            this.tabPage7.TabIndex = 6;
-            this.tabPage7.Text = "g)Intervención en la formación de personal académico";
-            this.tabPage7.UseVisualStyleBackColor = true;
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.label29.Location = new System.Drawing.Point(313, 52);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(269, 13);
-            this.label29.TabIndex = 0;
-            this.label29.Text = "ANTECEDENTES ACADÉMICOS Y PROFESIONALES";
-            this.label29.Click += new System.EventHandler(this.label29_Click);
+            this.button23.Location = new System.Drawing.Point(833, 205);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(75, 23);
+            this.button23.TabIndex = 2;
+            this.button23.Text = "Añadir otro";
+            this.button23.UseVisualStyleBackColor = true;
             // 
             // label30
             // 
@@ -1040,34 +956,16 @@
             this.label30.TabIndex = 1;
             this.label30.Text = "Cuestionario de Actividades Docentes (CAD) sobresaliente:";
             // 
-            // button23
+            // label29
             // 
-            this.button23.Location = new System.Drawing.Point(833, 205);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(75, 23);
-            this.button23.TabIndex = 2;
-            this.button23.Text = "Añadir otro";
-            this.button23.UseVisualStyleBackColor = true;
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.label31.Location = new System.Drawing.Point(404, 43);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(175, 13);
-            this.label31.TabIndex = 0;
-            this.label31.Text = "LABOR DE DIFUSIÓN CULTURAL";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.BackColor = System.Drawing.Color.LightGray;
-            this.label32.Location = new System.Drawing.Point(91, 161);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(187, 13);
-            this.label32.TabIndex = 1;
-            this.label32.Text = "Artículo de divulgación (dos por año) :";
+            this.label29.AutoSize = true;
+            this.label29.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.label29.Location = new System.Drawing.Point(313, 52);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(269, 13);
+            this.label29.TabIndex = 0;
+            this.label29.Text = "ANTECEDENTES ACADÉMICOS Y PROFESIONALES";
+            this.label29.Click += new System.EventHandler(this.label29_Click);
             // 
             // tabPage4
             // 
@@ -1128,333 +1026,70 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "d)Labor de difusion cultural";
             // 
-            // button24
-            // 
-            this.button24.Location = new System.Drawing.Point(823, 161);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(75, 23);
-            this.button24.TabIndex = 2;
-            this.button24.Text = "Añadir otro";
-            this.button24.UseVisualStyleBackColor = true;
-            // 
-            // button25
-            // 
-            this.button25.Location = new System.Drawing.Point(823, 225);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(75, 23);
-            this.button25.TabIndex = 4;
-            this.button25.Text = "Añadir otro";
-            this.button25.UseVisualStyleBackColor = true;
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.BackColor = System.Drawing.Color.LightGray;
-            this.label33.Location = new System.Drawing.Point(91, 225);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(223, 13);
-            this.label33.TabIndex = 3;
-            this.label33.Text = "Boletín informativo impreso o medios digitales:";
-            // 
-            // button26
-            // 
-            this.button26.Location = new System.Drawing.Point(823, 283);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(75, 23);
-            this.button26.TabIndex = 6;
-            this.button26.Text = "Añadir otro";
-            this.button26.UseVisualStyleBackColor = true;
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.BackColor = System.Drawing.Color.LightGray;
-            this.label34.Location = new System.Drawing.Point(91, 283);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(120, 13);
-            this.label34.TabIndex = 5;
-            this.label34.Text = "Charlas de divulgación :";
-            // 
-            // button27
-            // 
-            this.button27.Location = new System.Drawing.Point(823, 330);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(75, 23);
-            this.button27.TabIndex = 8;
-            this.button27.Text = "Añadir otro";
-            this.button27.UseVisualStyleBackColor = true;
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.BackColor = System.Drawing.Color.LightGray;
-            this.label35.Location = new System.Drawing.Point(91, 340);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(164, 13);
-            this.label35.TabIndex = 7;
-            this.label35.Text = "Conferencia o video conferencia:";
-            // 
-            // button28
-            // 
-            this.button28.Location = new System.Drawing.Point(823, 490);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(75, 23);
-            this.button28.TabIndex = 10;
-            this.button28.Text = "Añadir otro";
-            this.button28.UseVisualStyleBackColor = true;
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.BackColor = System.Drawing.Color.LightGray;
-            this.label36.Location = new System.Drawing.Point(91, 446);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(407, 13);
-            this.label36.TabIndex = 9;
-            this.label36.Text = "Diseño y elaboración de Materiales Didácticos Interactivos para el Portal Académi" +
-    "co:";
-            // 
-            // button29
-            // 
-            this.button29.Location = new System.Drawing.Point(823, 436);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(75, 23);
-            this.button29.TabIndex = 12;
-            this.button29.Text = "Añadir otro";
-            this.button29.UseVisualStyleBackColor = true;
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.BackColor = System.Drawing.Color.LightGray;
-            this.label37.Location = new System.Drawing.Point(91, 500);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(295, 13);
-            this.label37.TabIndex = 11;
-            this.label37.Text = "Ensayo cultural (Véase protocolo publicado en 2001 o 2003):";
-            // 
-            // button30
-            // 
-            this.button30.Location = new System.Drawing.Point(823, 380);
-            this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(75, 23);
-            this.button30.TabIndex = 14;
-            this.button30.Text = "Añadir otro";
-            this.button30.UseVisualStyleBackColor = true;
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.BackColor = System.Drawing.Color.LightGray;
-            this.label38.Location = new System.Drawing.Point(91, 390);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(250, 13);
-            this.label38.TabIndex = 13;
-            this.label38.Text = "Dirección de obras de teatro de carácter didáctico :";
-            // 
-            // button31
-            // 
-            this.button31.Location = new System.Drawing.Point(823, 541);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(75, 23);
-            this.button31.TabIndex = 16;
-            this.button31.Text = "Añadir otro";
-            this.button31.UseVisualStyleBackColor = true;
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.BackColor = System.Drawing.Color.LightGray;
-            this.label39.Location = new System.Drawing.Point(91, 551);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(148, 13);
-            this.label39.TabIndex = 15;
-            this.label39.Text = "Juegos con fines educativos :";
-            // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.BackColor = System.Drawing.Color.LightGray;
-            this.label40.Location = new System.Drawing.Point(91, 649);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(101, 13);
-            this.label40.TabIndex = 17;
-            this.label40.Text = "Material Audiovisual";
-            // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(264, 629);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(43, 13);
-            this.label41.TabIndex = 18;
-            this.label41.Text = "Normal:";
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(264, 691);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(88, 13);
-            this.label42.TabIndex = 19;
-            this.label42.Text = "Creación original:";
-            // 
-            // button32
-            // 
-            this.button32.Location = new System.Drawing.Point(825, 619);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(75, 23);
-            this.button32.TabIndex = 20;
-            this.button32.Text = "Añadir otro";
-            this.button32.UseVisualStyleBackColor = true;
-            // 
-            // button33
-            // 
-            this.button33.Location = new System.Drawing.Point(825, 681);
-            this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(75, 23);
-            this.button33.TabIndex = 21;
-            this.button33.Text = "Añadir otro";
-            this.button33.UseVisualStyleBackColor = true;
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.BackColor = System.Drawing.Color.LightGray;
-            this.label43.Location = new System.Drawing.Point(91, 817);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(69, 13);
-            this.label43.TabIndex = 22;
-            this.label43.Text = "Organización";
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(375, 817);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(123, 13);
-            this.label44.TabIndex = 23;
-            this.label44.Text = "Actividades Académicas";
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(375, 895);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(95, 13);
-            this.label45.TabIndex = 24;
-            this.label45.Text = "Eventos Culturales";
-            // 
-            // label46
-            // 
-            this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(375, 1060);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(95, 13);
-            this.label46.TabIndex = 26;
-            this.label46.Text = "Eventos Culturales";
-            // 
-            // label47
-            // 
-            this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(375, 991);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(123, 13);
-            this.label47.TabIndex = 25;
-            this.label47.Text = "Actividades Académicas";
-            // 
-            // label48
-            // 
-            this.label48.AutoSize = true;
-            this.label48.Location = new System.Drawing.Point(263, 817);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(44, 13);
-            this.label48.TabIndex = 27;
-            this.label48.Text = "General";
-            this.label48.Click += new System.EventHandler(this.label48_Click);
-            // 
-            // label49
-            // 
-            this.label49.AutoSize = true;
-            this.label49.Location = new System.Drawing.Point(264, 991);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(33, 13);
-            this.label49.TabIndex = 28;
-            this.label49.Text = "Local";
-            // 
-            // button34
-            // 
-            this.button34.Location = new System.Drawing.Point(825, 807);
-            this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(75, 23);
-            this.button34.TabIndex = 29;
-            this.button34.Text = "Añadir otro";
-            this.button34.UseVisualStyleBackColor = true;
-            // 
-            // button35
-            // 
-            this.button35.Location = new System.Drawing.Point(825, 885);
-            this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(75, 23);
-            this.button35.TabIndex = 30;
-            this.button35.Text = "Añadir otro";
-            this.button35.UseVisualStyleBackColor = true;
-            // 
-            // button36
-            // 
-            this.button36.Location = new System.Drawing.Point(823, 981);
-            this.button36.Name = "button36";
-            this.button36.Size = new System.Drawing.Size(75, 23);
-            this.button36.TabIndex = 31;
-            this.button36.Text = "Añadir otro";
-            this.button36.UseVisualStyleBackColor = true;
-            // 
-            // button37
-            // 
-            this.button37.Location = new System.Drawing.Point(823, 1050);
-            this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(75, 23);
-            this.button37.TabIndex = 32;
-            this.button37.Text = "Añadir otro";
-            this.button37.UseVisualStyleBackColor = true;
-            // 
-            // button38
-            // 
-            this.button38.Location = new System.Drawing.Point(823, 1111);
-            this.button38.Name = "button38";
-            this.button38.Size = new System.Drawing.Size(75, 23);
-            this.button38.TabIndex = 34;
-            this.button38.Text = "Añadir otro";
-            this.button38.UseVisualStyleBackColor = true;
-            // 
-            // label50
-            // 
-            this.label50.AutoSize = true;
-            this.label50.BackColor = System.Drawing.Color.LightGray;
-            this.label50.Location = new System.Drawing.Point(93, 1121);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(225, 13);
-            this.label50.TabIndex = 33;
-            this.label50.Text = "Participación en la elaboración de una revista:";
-            // 
-            // button39
-            // 
-            this.button39.Location = new System.Drawing.Point(823, 1165);
-            this.button39.Name = "button39";
-            this.button39.Size = new System.Drawing.Size(75, 23);
-            this.button39.TabIndex = 36;
-            this.button39.Text = "Añadir otro";
-            this.button39.UseVisualStyleBackColor = true;
-            // 
-            // label51
-            // 
-            this.label51.AutoSize = true;
-            this.label51.BackColor = System.Drawing.Color.LightGray;
-            this.label51.Location = new System.Drawing.Point(93, 1175);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(55, 13);
-            this.label51.TabIndex = 35;
-            this.label51.Text = "Ponencia:";
+            // button46
+            // 
+            this.button46.Location = new System.Drawing.Point(657, 1552);
+            this.button46.Name = "button46";
+            this.button46.Size = new System.Drawing.Size(75, 23);
+            this.button46.TabIndex = 54;
+            this.button46.Text = "Siguiente";
+            this.button46.UseVisualStyleBackColor = true;
+            // 
+            // button45
+            // 
+            this.button45.Location = new System.Drawing.Point(173, 1549);
+            this.button45.Name = "button45";
+            this.button45.Size = new System.Drawing.Size(75, 23);
+            this.button45.TabIndex = 49;
+            this.button45.Text = "Guardar";
+            this.button45.UseVisualStyleBackColor = true;
+            // 
+            // button44
+            // 
+            this.button44.Location = new System.Drawing.Point(823, 1406);
+            this.button44.Name = "button44";
+            this.button44.Size = new System.Drawing.Size(75, 23);
+            this.button44.TabIndex = 48;
+            this.button44.Text = "Añadir otro";
+            this.button44.UseVisualStyleBackColor = true;
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.BackColor = System.Drawing.Color.LightGray;
+            this.label55.Location = new System.Drawing.Point(93, 1416);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(80, 13);
+            this.label55.TabIndex = 47;
+            this.label55.Text = "Visitas guiadas:";
+            // 
+            // button42
+            // 
+            this.button42.Location = new System.Drawing.Point(823, 1357);
+            this.button42.Name = "button42";
+            this.button42.Size = new System.Drawing.Size(75, 23);
+            this.button42.TabIndex = 46;
+            this.button42.Text = "Añadir otro";
+            this.button42.UseVisualStyleBackColor = true;
+            // 
+            // button43
+            // 
+            this.button43.Location = new System.Drawing.Point(823, 1309);
+            this.button43.Name = "button43";
+            this.button43.Size = new System.Drawing.Size(75, 23);
+            this.button43.TabIndex = 45;
+            this.button43.Text = "Añadir otro";
+            this.button43.UseVisualStyleBackColor = true;
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.BackColor = System.Drawing.Color.LightGray;
+            this.label56.Location = new System.Drawing.Point(93, 1367);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(87, 13);
+            this.label56.TabIndex = 43;
+            this.label56.Text = "Video educativo:";
             // 
             // button40
             // 
@@ -1504,88 +1139,568 @@
             this.label54.TabIndex = 37;
             this.label54.Text = "Presentación de un libro:";
             // 
-            // button42
+            // button39
             // 
-            this.button42.Location = new System.Drawing.Point(823, 1357);
-            this.button42.Name = "button42";
-            this.button42.Size = new System.Drawing.Size(75, 23);
-            this.button42.TabIndex = 46;
-            this.button42.Text = "Añadir otro";
-            this.button42.UseVisualStyleBackColor = true;
+            this.button39.Location = new System.Drawing.Point(823, 1165);
+            this.button39.Name = "button39";
+            this.button39.Size = new System.Drawing.Size(75, 23);
+            this.button39.TabIndex = 36;
+            this.button39.Text = "Añadir otro";
+            this.button39.UseVisualStyleBackColor = true;
             // 
-            // button43
+            // label51
             // 
-            this.button43.Location = new System.Drawing.Point(823, 1309);
-            this.button43.Name = "button43";
-            this.button43.Size = new System.Drawing.Size(75, 23);
-            this.button43.TabIndex = 45;
-            this.button43.Text = "Añadir otro";
-            this.button43.UseVisualStyleBackColor = true;
+            this.label51.AutoSize = true;
+            this.label51.BackColor = System.Drawing.Color.LightGray;
+            this.label51.Location = new System.Drawing.Point(93, 1175);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(55, 13);
+            this.label51.TabIndex = 35;
+            this.label51.Text = "Ponencia:";
             // 
-            // label56
+            // button38
             // 
-            this.label56.AutoSize = true;
-            this.label56.BackColor = System.Drawing.Color.LightGray;
-            this.label56.Location = new System.Drawing.Point(93, 1367);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(87, 13);
-            this.label56.TabIndex = 43;
-            this.label56.Text = "Video educativo:";
+            this.button38.Location = new System.Drawing.Point(823, 1111);
+            this.button38.Name = "button38";
+            this.button38.Size = new System.Drawing.Size(75, 23);
+            this.button38.TabIndex = 34;
+            this.button38.Text = "Añadir otro";
+            this.button38.UseVisualStyleBackColor = true;
             // 
-            // button44
+            // label50
             // 
-            this.button44.Location = new System.Drawing.Point(823, 1406);
-            this.button44.Name = "button44";
-            this.button44.Size = new System.Drawing.Size(75, 23);
-            this.button44.TabIndex = 48;
-            this.button44.Text = "Añadir otro";
-            this.button44.UseVisualStyleBackColor = true;
+            this.label50.AutoSize = true;
+            this.label50.BackColor = System.Drawing.Color.LightGray;
+            this.label50.Location = new System.Drawing.Point(93, 1121);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(225, 13);
+            this.label50.TabIndex = 33;
+            this.label50.Text = "Participación en la elaboración de una revista:";
             // 
-            // label55
+            // button37
             // 
-            this.label55.AutoSize = true;
-            this.label55.BackColor = System.Drawing.Color.LightGray;
-            this.label55.Location = new System.Drawing.Point(93, 1416);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(80, 13);
-            this.label55.TabIndex = 47;
-            this.label55.Text = "Visitas guiadas:";
+            this.button37.Location = new System.Drawing.Point(823, 1050);
+            this.button37.Name = "button37";
+            this.button37.Size = new System.Drawing.Size(75, 23);
+            this.button37.TabIndex = 32;
+            this.button37.Text = "Añadir otro";
+            this.button37.UseVisualStyleBackColor = true;
             // 
-            // button45
+            // button36
             // 
-            this.button45.Location = new System.Drawing.Point(173, 1549);
-            this.button45.Name = "button45";
-            this.button45.Size = new System.Drawing.Size(75, 23);
-            this.button45.TabIndex = 49;
-            this.button45.Text = "Guardar";
-            this.button45.UseVisualStyleBackColor = true;
+            this.button36.Location = new System.Drawing.Point(823, 981);
+            this.button36.Name = "button36";
+            this.button36.Size = new System.Drawing.Size(75, 23);
+            this.button36.TabIndex = 31;
+            this.button36.Text = "Añadir otro";
+            this.button36.UseVisualStyleBackColor = true;
             // 
-            // button46
+            // button35
             // 
-            this.button46.Location = new System.Drawing.Point(657, 1552);
-            this.button46.Name = "button46";
-            this.button46.Size = new System.Drawing.Size(75, 23);
-            this.button46.TabIndex = 54;
-            this.button46.Text = "Siguiente";
-            this.button46.UseVisualStyleBackColor = true;
+            this.button35.Location = new System.Drawing.Point(825, 885);
+            this.button35.Name = "button35";
+            this.button35.Size = new System.Drawing.Size(75, 23);
+            this.button35.TabIndex = 30;
+            this.button35.Text = "Añadir otro";
+            this.button35.UseVisualStyleBackColor = true;
             // 
-            // button47
+            // button34
             // 
-            this.button47.Location = new System.Drawing.Point(592, 628);
-            this.button47.Name = "button47";
-            this.button47.Size = new System.Drawing.Size(75, 23);
-            this.button47.TabIndex = 3;
-            this.button47.Text = "Siguiente";
-            this.button47.UseVisualStyleBackColor = true;
+            this.button34.Location = new System.Drawing.Point(825, 807);
+            this.button34.Name = "button34";
+            this.button34.Size = new System.Drawing.Size(75, 23);
+            this.button34.TabIndex = 29;
+            this.button34.Text = "Añadir otro";
+            this.button34.UseVisualStyleBackColor = true;
             // 
-            // button48
+            // label49
             // 
-            this.button48.Location = new System.Drawing.Point(269, 628);
-            this.button48.Name = "button48";
-            this.button48.Size = new System.Drawing.Size(75, 23);
-            this.button48.TabIndex = 4;
-            this.button48.Text = "Guardar";
-            this.button48.UseVisualStyleBackColor = true;
+            this.label49.AutoSize = true;
+            this.label49.Location = new System.Drawing.Point(264, 991);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(33, 13);
+            this.label49.TabIndex = 28;
+            this.label49.Text = "Local";
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.Location = new System.Drawing.Point(263, 817);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(44, 13);
+            this.label48.TabIndex = 27;
+            this.label48.Text = "General";
+            this.label48.Click += new System.EventHandler(this.label48_Click);
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Location = new System.Drawing.Point(375, 1060);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(95, 13);
+            this.label46.TabIndex = 26;
+            this.label46.Text = "Eventos Culturales";
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Location = new System.Drawing.Point(375, 991);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(123, 13);
+            this.label47.TabIndex = 25;
+            this.label47.Text = "Actividades Académicas";
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Location = new System.Drawing.Point(375, 895);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(95, 13);
+            this.label45.TabIndex = 24;
+            this.label45.Text = "Eventos Culturales";
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Location = new System.Drawing.Point(375, 817);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(123, 13);
+            this.label44.TabIndex = 23;
+            this.label44.Text = "Actividades Académicas";
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.BackColor = System.Drawing.Color.LightGray;
+            this.label43.Location = new System.Drawing.Point(91, 817);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(69, 13);
+            this.label43.TabIndex = 22;
+            this.label43.Text = "Organización";
+            // 
+            // button33
+            // 
+            this.button33.Location = new System.Drawing.Point(825, 681);
+            this.button33.Name = "button33";
+            this.button33.Size = new System.Drawing.Size(75, 23);
+            this.button33.TabIndex = 21;
+            this.button33.Text = "Añadir otro";
+            this.button33.UseVisualStyleBackColor = true;
+            // 
+            // button32
+            // 
+            this.button32.Location = new System.Drawing.Point(825, 619);
+            this.button32.Name = "button32";
+            this.button32.Size = new System.Drawing.Size(75, 23);
+            this.button32.TabIndex = 20;
+            this.button32.Text = "Añadir otro";
+            this.button32.UseVisualStyleBackColor = true;
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Location = new System.Drawing.Point(264, 691);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(88, 13);
+            this.label42.TabIndex = 19;
+            this.label42.Text = "Creación original:";
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Location = new System.Drawing.Point(264, 629);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(43, 13);
+            this.label41.TabIndex = 18;
+            this.label41.Text = "Normal:";
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.BackColor = System.Drawing.Color.LightGray;
+            this.label40.Location = new System.Drawing.Point(91, 649);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(101, 13);
+            this.label40.TabIndex = 17;
+            this.label40.Text = "Material Audiovisual";
+            // 
+            // button31
+            // 
+            this.button31.Location = new System.Drawing.Point(823, 541);
+            this.button31.Name = "button31";
+            this.button31.Size = new System.Drawing.Size(75, 23);
+            this.button31.TabIndex = 16;
+            this.button31.Text = "Añadir otro";
+            this.button31.UseVisualStyleBackColor = true;
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.BackColor = System.Drawing.Color.LightGray;
+            this.label39.Location = new System.Drawing.Point(91, 551);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(148, 13);
+            this.label39.TabIndex = 15;
+            this.label39.Text = "Juegos con fines educativos :";
+            // 
+            // button30
+            // 
+            this.button30.Location = new System.Drawing.Point(823, 380);
+            this.button30.Name = "button30";
+            this.button30.Size = new System.Drawing.Size(75, 23);
+            this.button30.TabIndex = 14;
+            this.button30.Text = "Añadir otro";
+            this.button30.UseVisualStyleBackColor = true;
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.BackColor = System.Drawing.Color.LightGray;
+            this.label38.Location = new System.Drawing.Point(91, 390);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(250, 13);
+            this.label38.TabIndex = 13;
+            this.label38.Text = "Dirección de obras de teatro de carácter didáctico :";
+            // 
+            // button29
+            // 
+            this.button29.Location = new System.Drawing.Point(823, 436);
+            this.button29.Name = "button29";
+            this.button29.Size = new System.Drawing.Size(75, 23);
+            this.button29.TabIndex = 12;
+            this.button29.Text = "Añadir otro";
+            this.button29.UseVisualStyleBackColor = true;
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.BackColor = System.Drawing.Color.LightGray;
+            this.label37.Location = new System.Drawing.Point(91, 500);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(295, 13);
+            this.label37.TabIndex = 11;
+            this.label37.Text = "Ensayo cultural (Véase protocolo publicado en 2001 o 2003):";
+            // 
+            // button28
+            // 
+            this.button28.Location = new System.Drawing.Point(823, 490);
+            this.button28.Name = "button28";
+            this.button28.Size = new System.Drawing.Size(75, 23);
+            this.button28.TabIndex = 10;
+            this.button28.Text = "Añadir otro";
+            this.button28.UseVisualStyleBackColor = true;
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.BackColor = System.Drawing.Color.LightGray;
+            this.label36.Location = new System.Drawing.Point(91, 446);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(407, 13);
+            this.label36.TabIndex = 9;
+            this.label36.Text = "Diseño y elaboración de Materiales Didácticos Interactivos para el Portal Académi" +
+    "co:";
+            // 
+            // button27
+            // 
+            this.button27.Location = new System.Drawing.Point(823, 330);
+            this.button27.Name = "button27";
+            this.button27.Size = new System.Drawing.Size(75, 23);
+            this.button27.TabIndex = 8;
+            this.button27.Text = "Añadir otro";
+            this.button27.UseVisualStyleBackColor = true;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.BackColor = System.Drawing.Color.LightGray;
+            this.label35.Location = new System.Drawing.Point(91, 340);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(164, 13);
+            this.label35.TabIndex = 7;
+            this.label35.Text = "Conferencia o video conferencia:";
+            // 
+            // button26
+            // 
+            this.button26.Location = new System.Drawing.Point(823, 283);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(75, 23);
+            this.button26.TabIndex = 6;
+            this.button26.Text = "Añadir otro";
+            this.button26.UseVisualStyleBackColor = true;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.BackColor = System.Drawing.Color.LightGray;
+            this.label34.Location = new System.Drawing.Point(91, 283);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(120, 13);
+            this.label34.TabIndex = 5;
+            this.label34.Text = "Charlas de divulgación :";
+            // 
+            // button25
+            // 
+            this.button25.Location = new System.Drawing.Point(823, 225);
+            this.button25.Name = "button25";
+            this.button25.Size = new System.Drawing.Size(75, 23);
+            this.button25.TabIndex = 4;
+            this.button25.Text = "Añadir otro";
+            this.button25.UseVisualStyleBackColor = true;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.BackColor = System.Drawing.Color.LightGray;
+            this.label33.Location = new System.Drawing.Point(91, 225);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(223, 13);
+            this.label33.TabIndex = 3;
+            this.label33.Text = "Boletín informativo impreso o medios digitales:";
+            // 
+            // button24
+            // 
+            this.button24.Location = new System.Drawing.Point(823, 161);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(75, 23);
+            this.button24.TabIndex = 2;
+            this.button24.Text = "Añadir otro";
+            this.button24.UseVisualStyleBackColor = true;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.BackColor = System.Drawing.Color.LightGray;
+            this.label32.Location = new System.Drawing.Point(91, 161);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(187, 13);
+            this.label32.TabIndex = 1;
+            this.label32.Text = "Artículo de divulgación (dos por año) :";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.label31.Location = new System.Drawing.Point(404, 43);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(175, 13);
+            this.label31.TabIndex = 0;
+            this.label31.Text = "LABOR DE DIFUSIÓN CULTURAL";
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.AutoScroll = true;
+            this.tabPage5.Controls.Add(this.button65);
+            this.tabPage5.Controls.Add(this.button66);
+            this.tabPage5.Controls.Add(this.button57);
+            this.tabPage5.Controls.Add(this.label66);
+            this.tabPage5.Controls.Add(this.button58);
+            this.tabPage5.Controls.Add(this.label67);
+            this.tabPage5.Controls.Add(this.button59);
+            this.tabPage5.Controls.Add(this.label68);
+            this.tabPage5.Controls.Add(this.button60);
+            this.tabPage5.Controls.Add(this.label69);
+            this.tabPage5.Controls.Add(this.button61);
+            this.tabPage5.Controls.Add(this.label70);
+            this.tabPage5.Controls.Add(this.button62);
+            this.tabPage5.Controls.Add(this.label71);
+            this.tabPage5.Controls.Add(this.button63);
+            this.tabPage5.Controls.Add(this.label72);
+            this.tabPage5.Controls.Add(this.button64);
+            this.tabPage5.Controls.Add(this.label73);
+            this.tabPage5.Controls.Add(this.button49);
+            this.tabPage5.Controls.Add(this.label57);
+            this.tabPage5.Controls.Add(this.button50);
+            this.tabPage5.Controls.Add(this.label58);
+            this.tabPage5.Controls.Add(this.button51);
+            this.tabPage5.Controls.Add(this.label59);
+            this.tabPage5.Controls.Add(this.button52);
+            this.tabPage5.Controls.Add(this.label60);
+            this.tabPage5.Controls.Add(this.button53);
+            this.tabPage5.Controls.Add(this.label61);
+            this.tabPage5.Controls.Add(this.button54);
+            this.tabPage5.Controls.Add(this.label62);
+            this.tabPage5.Controls.Add(this.button55);
+            this.tabPage5.Controls.Add(this.label63);
+            this.tabPage5.Controls.Add(this.button56);
+            this.tabPage5.Controls.Add(this.label64);
+            this.tabPage5.Controls.Add(this.label65);
+            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Size = new System.Drawing.Size(944, 971);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "e)Labor académica-Administrativa";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // button65
+            // 
+            this.button65.Location = new System.Drawing.Point(224, 1093);
+            this.button65.Name = "button65";
+            this.button65.Size = new System.Drawing.Size(75, 23);
+            this.button65.TabIndex = 53;
+            this.button65.Text = "Guardar";
+            this.button65.UseVisualStyleBackColor = true;
+            // 
+            // button66
+            // 
+            this.button66.Location = new System.Drawing.Point(572, 1093);
+            this.button66.Name = "button66";
+            this.button66.Size = new System.Drawing.Size(75, 23);
+            this.button66.TabIndex = 51;
+            this.button66.Text = "Siguiente";
+            this.button66.UseVisualStyleBackColor = true;
+            // 
+            // button57
+            // 
+            this.button57.Location = new System.Drawing.Point(823, 987);
+            this.button57.Name = "button57";
+            this.button57.Size = new System.Drawing.Size(75, 23);
+            this.button57.TabIndex = 49;
+            this.button57.Text = "Añadir otro";
+            this.button57.UseVisualStyleBackColor = true;
+            // 
+            // label66
+            // 
+            this.label66.AutoSize = true;
+            this.label66.BackColor = System.Drawing.Color.LightGray;
+            this.label66.Location = new System.Drawing.Point(77, 997);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(137, 13);
+            this.label66.TabIndex = 48;
+            this.label66.Text = "Estaciones Meteorológicas:";
+            // 
+            // button58
+            // 
+            this.button58.Location = new System.Drawing.Point(823, 826);
+            this.button58.Name = "button58";
+            this.button58.Size = new System.Drawing.Size(75, 23);
+            this.button58.TabIndex = 47;
+            this.button58.Text = "Añadir otro";
+            this.button58.UseVisualStyleBackColor = true;
+            // 
+            // label67
+            // 
+            this.label67.AutoSize = true;
+            this.label67.BackColor = System.Drawing.Color.LightGray;
+            this.label67.Location = new System.Drawing.Point(77, 836);
+            this.label67.Name = "label67";
+            this.label67.Size = new System.Drawing.Size(156, 13);
+            this.label67.TabIndex = 46;
+            this.label67.Text = "Miembro de Comisión Especial :";
+            // 
+            // button59
+            // 
+            this.button59.Location = new System.Drawing.Point(823, 882);
+            this.button59.Name = "button59";
+            this.button59.Size = new System.Drawing.Size(75, 23);
+            this.button59.TabIndex = 45;
+            this.button59.Text = "Añadir otro";
+            this.button59.UseVisualStyleBackColor = true;
+            // 
+            // label68
+            // 
+            this.label68.AutoSize = true;
+            this.label68.BackColor = System.Drawing.Color.LightGray;
+            this.label68.Location = new System.Drawing.Point(77, 946);
+            this.label68.Name = "label68";
+            this.label68.Size = new System.Drawing.Size(276, 13);
+            this.label68.TabIndex = 44;
+            this.label68.Text = "PAPIME (con dictamen satisfactorio emitido por DGAPA):";
+            // 
+            // button60
+            // 
+            this.button60.Location = new System.Drawing.Point(823, 936);
+            this.button60.Name = "button60";
+            this.button60.Size = new System.Drawing.Size(75, 23);
+            this.button60.TabIndex = 43;
+            this.button60.Text = "Añadir otro";
+            this.button60.UseVisualStyleBackColor = true;
+            // 
+            // label69
+            // 
+            this.label69.AutoSize = true;
+            this.label69.BackColor = System.Drawing.Color.LightGray;
+            this.label69.Location = new System.Drawing.Point(77, 892);
+            this.label69.Name = "label69";
+            this.label69.Size = new System.Drawing.Size(354, 13);
+            this.label69.TabIndex = 42;
+            this.label69.Text = "Participación Jóvenes hacia la Investigación en Ciencias y Humanidades:";
+            // 
+            // button61
+            // 
+            this.button61.Location = new System.Drawing.Point(823, 776);
+            this.button61.Name = "button61";
+            this.button61.Size = new System.Drawing.Size(75, 23);
+            this.button61.TabIndex = 41;
+            this.button61.Text = "Añadir otro";
+            this.button61.UseVisualStyleBackColor = true;
+            // 
+            // label70
+            // 
+            this.label70.AutoSize = true;
+            this.label70.BackColor = System.Drawing.Color.LightGray;
+            this.label70.Location = new System.Drawing.Point(77, 786);
+            this.label70.Name = "label70";
+            this.label70.Size = new System.Drawing.Size(181, 13);
+            this.label70.TabIndex = 40;
+            this.label70.Text = "Miembro de Comisión Dictaminadora:";
+            // 
+            // button62
+            // 
+            this.button62.Location = new System.Drawing.Point(823, 729);
+            this.button62.Name = "button62";
+            this.button62.Size = new System.Drawing.Size(75, 23);
+            this.button62.TabIndex = 39;
+            this.button62.Text = "Añadir otro";
+            this.button62.UseVisualStyleBackColor = true;
+            // 
+            // label71
+            // 
+            this.label71.AutoSize = true;
+            this.label71.BackColor = System.Drawing.Color.LightGray;
+            this.label71.Location = new System.Drawing.Point(77, 729);
+            this.label71.Name = "label71";
+            this.label71.Size = new System.Drawing.Size(94, 13);
+            this.label71.TabIndex = 38;
+            this.label71.Text = "Jurado Calificador:";
+            // 
+            // button63
+            // 
+            this.button63.Location = new System.Drawing.Point(823, 671);
+            this.button63.Name = "button63";
+            this.button63.Size = new System.Drawing.Size(75, 23);
+            this.button63.TabIndex = 37;
+            this.button63.Text = "Añadir otro";
+            this.button63.UseVisualStyleBackColor = true;
+            // 
+            // label72
+            // 
+            this.label72.AutoSize = true;
+            this.label72.BackColor = System.Drawing.Color.LightGray;
+            this.label72.Location = new System.Drawing.Point(77, 671);
+            this.label72.Name = "label72";
+            this.label72.Size = new System.Drawing.Size(282, 13);
+            this.label72.TabIndex = 36;
+            this.label72.Text = "INFOCAB (con dictamen satisfactorio emitido por DGAPA):";
+            // 
+            // button64
+            // 
+            this.button64.Location = new System.Drawing.Point(823, 607);
+            this.button64.Name = "button64";
+            this.button64.Size = new System.Drawing.Size(75, 23);
+            this.button64.TabIndex = 35;
+            this.button64.Text = "Añadir otro";
+            this.button64.UseVisualStyleBackColor = true;
+            // 
+            // label73
+            // 
+            this.label73.AutoSize = true;
+            this.label73.BackColor = System.Drawing.Color.LightGray;
+            this.label73.Location = new System.Drawing.Point(77, 607);
+            this.label73.Name = "label73";
+            this.label73.Size = new System.Drawing.Size(327, 13);
+            this.label73.TabIndex = 34;
+            this.label73.Text = "Funcionario o integrante de la comisión organizadora de elecciones:";
             // 
             // button49
             // 
@@ -1750,175 +1865,28 @@
             this.label65.TabIndex = 17;
             this.label65.Text = "LABOR ACADÉMICA-ADMINISTRATIVA";
             // 
-            // button57
+            // tabPage6
             // 
-            this.button57.Location = new System.Drawing.Point(823, 987);
-            this.button57.Name = "button57";
-            this.button57.Size = new System.Drawing.Size(75, 23);
-            this.button57.TabIndex = 49;
-            this.button57.Text = "Añadir otro";
-            this.button57.UseVisualStyleBackColor = true;
+            this.tabPage6.Controls.Add(this.comboBox9);
+            this.tabPage6.Controls.Add(this.button67);
+            this.tabPage6.Controls.Add(this.button68);
+            this.tabPage6.Controls.Add(this.button69);
+            this.tabPage6.Controls.Add(this.label74);
+            this.tabPage6.Controls.Add(this.label75);
+            this.tabPage6.Location = new System.Drawing.Point(4, 22);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Size = new System.Drawing.Size(944, 971);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "f)Antigüedad en la UNAM";
+            this.tabPage6.UseVisualStyleBackColor = true;
             // 
-            // label66
+            // comboBox9
             // 
-            this.label66.AutoSize = true;
-            this.label66.BackColor = System.Drawing.Color.LightGray;
-            this.label66.Location = new System.Drawing.Point(77, 997);
-            this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(137, 13);
-            this.label66.TabIndex = 48;
-            this.label66.Text = "Estaciones Meteorológicas:";
-            // 
-            // button58
-            // 
-            this.button58.Location = new System.Drawing.Point(823, 826);
-            this.button58.Name = "button58";
-            this.button58.Size = new System.Drawing.Size(75, 23);
-            this.button58.TabIndex = 47;
-            this.button58.Text = "Añadir otro";
-            this.button58.UseVisualStyleBackColor = true;
-            // 
-            // label67
-            // 
-            this.label67.AutoSize = true;
-            this.label67.BackColor = System.Drawing.Color.LightGray;
-            this.label67.Location = new System.Drawing.Point(77, 836);
-            this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(156, 13);
-            this.label67.TabIndex = 46;
-            this.label67.Text = "Miembro de Comisión Especial :";
-            // 
-            // button59
-            // 
-            this.button59.Location = new System.Drawing.Point(823, 882);
-            this.button59.Name = "button59";
-            this.button59.Size = new System.Drawing.Size(75, 23);
-            this.button59.TabIndex = 45;
-            this.button59.Text = "Añadir otro";
-            this.button59.UseVisualStyleBackColor = true;
-            // 
-            // label68
-            // 
-            this.label68.AutoSize = true;
-            this.label68.BackColor = System.Drawing.Color.LightGray;
-            this.label68.Location = new System.Drawing.Point(77, 946);
-            this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(276, 13);
-            this.label68.TabIndex = 44;
-            this.label68.Text = "PAPIME (con dictamen satisfactorio emitido por DGAPA):";
-            // 
-            // button60
-            // 
-            this.button60.Location = new System.Drawing.Point(823, 936);
-            this.button60.Name = "button60";
-            this.button60.Size = new System.Drawing.Size(75, 23);
-            this.button60.TabIndex = 43;
-            this.button60.Text = "Añadir otro";
-            this.button60.UseVisualStyleBackColor = true;
-            // 
-            // label69
-            // 
-            this.label69.AutoSize = true;
-            this.label69.BackColor = System.Drawing.Color.LightGray;
-            this.label69.Location = new System.Drawing.Point(77, 892);
-            this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(354, 13);
-            this.label69.TabIndex = 42;
-            this.label69.Text = "Participación Jóvenes hacia la Investigación en Ciencias y Humanidades:";
-            // 
-            // button61
-            // 
-            this.button61.Location = new System.Drawing.Point(823, 776);
-            this.button61.Name = "button61";
-            this.button61.Size = new System.Drawing.Size(75, 23);
-            this.button61.TabIndex = 41;
-            this.button61.Text = "Añadir otro";
-            this.button61.UseVisualStyleBackColor = true;
-            // 
-            // label70
-            // 
-            this.label70.AutoSize = true;
-            this.label70.BackColor = System.Drawing.Color.LightGray;
-            this.label70.Location = new System.Drawing.Point(77, 786);
-            this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(181, 13);
-            this.label70.TabIndex = 40;
-            this.label70.Text = "Miembro de Comisión Dictaminadora:";
-            // 
-            // button62
-            // 
-            this.button62.Location = new System.Drawing.Point(823, 729);
-            this.button62.Name = "button62";
-            this.button62.Size = new System.Drawing.Size(75, 23);
-            this.button62.TabIndex = 39;
-            this.button62.Text = "Añadir otro";
-            this.button62.UseVisualStyleBackColor = true;
-            // 
-            // label71
-            // 
-            this.label71.AutoSize = true;
-            this.label71.BackColor = System.Drawing.Color.LightGray;
-            this.label71.Location = new System.Drawing.Point(77, 729);
-            this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(94, 13);
-            this.label71.TabIndex = 38;
-            this.label71.Text = "Jurado Calificador:";
-            // 
-            // button63
-            // 
-            this.button63.Location = new System.Drawing.Point(823, 671);
-            this.button63.Name = "button63";
-            this.button63.Size = new System.Drawing.Size(75, 23);
-            this.button63.TabIndex = 37;
-            this.button63.Text = "Añadir otro";
-            this.button63.UseVisualStyleBackColor = true;
-            // 
-            // label72
-            // 
-            this.label72.AutoSize = true;
-            this.label72.BackColor = System.Drawing.Color.LightGray;
-            this.label72.Location = new System.Drawing.Point(77, 671);
-            this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(282, 13);
-            this.label72.TabIndex = 36;
-            this.label72.Text = "INFOCAB (con dictamen satisfactorio emitido por DGAPA):";
-            // 
-            // button64
-            // 
-            this.button64.Location = new System.Drawing.Point(823, 607);
-            this.button64.Name = "button64";
-            this.button64.Size = new System.Drawing.Size(75, 23);
-            this.button64.TabIndex = 35;
-            this.button64.Text = "Añadir otro";
-            this.button64.UseVisualStyleBackColor = true;
-            // 
-            // label73
-            // 
-            this.label73.AutoSize = true;
-            this.label73.BackColor = System.Drawing.Color.LightGray;
-            this.label73.Location = new System.Drawing.Point(77, 607);
-            this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(327, 13);
-            this.label73.TabIndex = 34;
-            this.label73.Text = "Funcionario o integrante de la comisión organizadora de elecciones:";
-            // 
-            // button65
-            // 
-            this.button65.Location = new System.Drawing.Point(224, 1093);
-            this.button65.Name = "button65";
-            this.button65.Size = new System.Drawing.Size(75, 23);
-            this.button65.TabIndex = 53;
-            this.button65.Text = "Guardar";
-            this.button65.UseVisualStyleBackColor = true;
-            // 
-            // button66
-            // 
-            this.button66.Location = new System.Drawing.Point(572, 1093);
-            this.button66.Name = "button66";
-            this.button66.Size = new System.Drawing.Size(75, 23);
-            this.button66.TabIndex = 51;
-            this.button66.Text = "Siguiente";
-            this.button66.UseVisualStyleBackColor = true;
+            this.comboBox9.FormattingEnabled = true;
+            this.comboBox9.Location = new System.Drawing.Point(334, 204);
+            this.comboBox9.Name = "comboBox9";
+            this.comboBox9.Size = new System.Drawing.Size(152, 21);
+            this.comboBox9.TabIndex = 10;
             // 
             // button67
             // 
@@ -1967,13 +1935,158 @@
             this.label75.TabIndex = 5;
             this.label75.Text = "SU ANTIGUEDAD EN LA UNAM";
             // 
-            // comboBox9
+            // tabPage7
             // 
-            this.comboBox9.FormattingEnabled = true;
-            this.comboBox9.Location = new System.Drawing.Point(334, 204);
-            this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(152, 21);
-            this.comboBox9.TabIndex = 10;
+            this.tabPage7.AutoScroll = true;
+            this.tabPage7.Controls.Add(this.button70);
+            this.tabPage7.Controls.Add(this.button71);
+            this.tabPage7.Controls.Add(this.button89);
+            this.tabPage7.Controls.Add(this.label94);
+            this.tabPage7.Controls.Add(this.label93);
+            this.tabPage7.Controls.Add(this.label92);
+            this.tabPage7.Controls.Add(this.button86);
+            this.tabPage7.Controls.Add(this.button87);
+            this.tabPage7.Controls.Add(this.button88);
+            this.tabPage7.Controls.Add(this.label91);
+            this.tabPage7.Controls.Add(this.label90);
+            this.tabPage7.Controls.Add(this.button72);
+            this.tabPage7.Controls.Add(this.label76);
+            this.tabPage7.Controls.Add(this.button73);
+            this.tabPage7.Controls.Add(this.label77);
+            this.tabPage7.Controls.Add(this.button74);
+            this.tabPage7.Controls.Add(this.label78);
+            this.tabPage7.Controls.Add(this.button75);
+            this.tabPage7.Controls.Add(this.label79);
+            this.tabPage7.Controls.Add(this.button76);
+            this.tabPage7.Controls.Add(this.label80);
+            this.tabPage7.Controls.Add(this.button77);
+            this.tabPage7.Controls.Add(this.label81);
+            this.tabPage7.Controls.Add(this.button78);
+            this.tabPage7.Controls.Add(this.label82);
+            this.tabPage7.Controls.Add(this.button79);
+            this.tabPage7.Controls.Add(this.label83);
+            this.tabPage7.Controls.Add(this.button80);
+            this.tabPage7.Controls.Add(this.label84);
+            this.tabPage7.Controls.Add(this.button81);
+            this.tabPage7.Controls.Add(this.label85);
+            this.tabPage7.Controls.Add(this.button82);
+            this.tabPage7.Controls.Add(this.label86);
+            this.tabPage7.Controls.Add(this.button83);
+            this.tabPage7.Controls.Add(this.label87);
+            this.tabPage7.Controls.Add(this.button84);
+            this.tabPage7.Controls.Add(this.label88);
+            this.tabPage7.Controls.Add(this.button85);
+            this.tabPage7.Controls.Add(this.label89);
+            this.tabPage7.Location = new System.Drawing.Point(4, 22);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Size = new System.Drawing.Size(944, 971);
+            this.tabPage7.TabIndex = 6;
+            this.tabPage7.Text = "g)Intervención en la formación de personal académico";
+            this.tabPage7.UseVisualStyleBackColor = true;
+            // 
+            // button70
+            // 
+            this.button70.Location = new System.Drawing.Point(821, 1023);
+            this.button70.Name = "button70";
+            this.button70.Size = new System.Drawing.Size(75, 23);
+            this.button70.TabIndex = 94;
+            this.button70.Text = "Añadir otro";
+            this.button70.UseVisualStyleBackColor = true;
+            // 
+            // button71
+            // 
+            this.button71.Location = new System.Drawing.Point(821, 974);
+            this.button71.Name = "button71";
+            this.button71.Size = new System.Drawing.Size(75, 23);
+            this.button71.TabIndex = 93;
+            this.button71.Text = "Añadir otro";
+            this.button71.UseVisualStyleBackColor = true;
+            // 
+            // button89
+            // 
+            this.button89.Location = new System.Drawing.Point(821, 930);
+            this.button89.Name = "button89";
+            this.button89.Size = new System.Drawing.Size(75, 23);
+            this.button89.TabIndex = 92;
+            this.button89.Text = "Añadir otro";
+            this.button89.UseVisualStyleBackColor = true;
+            // 
+            // label94
+            // 
+            this.label94.AutoSize = true;
+            this.label94.BackColor = System.Drawing.Color.LightGray;
+            this.label94.Location = new System.Drawing.Point(75, 1033);
+            this.label94.Name = "label94";
+            this.label94.Size = new System.Drawing.Size(111, 13);
+            this.label94.TabIndex = 91;
+            this.label94.Text = "Tutorías a profesores:";
+            // 
+            // label93
+            // 
+            this.label93.AutoSize = true;
+            this.label93.BackColor = System.Drawing.Color.LightGray;
+            this.label93.Location = new System.Drawing.Point(75, 984);
+            this.label93.Name = "label93";
+            this.label93.Size = new System.Drawing.Size(211, 13);
+            this.label93.TabIndex = 90;
+            this.label93.Text = "Programas para la formación de profesores:";
+            // 
+            // label92
+            // 
+            this.label92.AutoSize = true;
+            this.label92.BackColor = System.Drawing.Color.LightGray;
+            this.label92.Location = new System.Drawing.Point(75, 940);
+            this.label92.Name = "label92";
+            this.label92.Size = new System.Drawing.Size(115, 13);
+            this.label92.TabIndex = 89;
+            this.label92.Text = "Guías para el profesor:";
+            // 
+            // button86
+            // 
+            this.button86.Location = new System.Drawing.Point(243, 1099);
+            this.button86.Name = "button86";
+            this.button86.Size = new System.Drawing.Size(75, 23);
+            this.button86.TabIndex = 88;
+            this.button86.Text = "Guardar";
+            this.button86.UseVisualStyleBackColor = true;
+            // 
+            // button87
+            // 
+            this.button87.Location = new System.Drawing.Point(568, 1099);
+            this.button87.Name = "button87";
+            this.button87.Size = new System.Drawing.Size(75, 23);
+            this.button87.TabIndex = 87;
+            this.button87.Text = "Siguiente";
+            this.button87.UseVisualStyleBackColor = true;
+            // 
+            // button88
+            // 
+            this.button88.Location = new System.Drawing.Point(821, 889);
+            this.button88.Name = "button88";
+            this.button88.Size = new System.Drawing.Size(75, 23);
+            this.button88.TabIndex = 86;
+            this.button88.Text = "Añadir otro";
+            this.button88.UseVisualStyleBackColor = true;
+            // 
+            // label91
+            // 
+            this.label91.AutoSize = true;
+            this.label91.BackColor = System.Drawing.Color.LightGray;
+            this.label91.Location = new System.Drawing.Point(75, 899);
+            this.label91.Name = "label91";
+            this.label91.Size = new System.Drawing.Size(108, 13);
+            this.label91.TabIndex = 85;
+            this.label91.Text = "Formador de Tutores:";
+            // 
+            // label90
+            // 
+            this.label90.AutoSize = true;
+            this.label90.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.label90.Location = new System.Drawing.Point(345, 45);
+            this.label90.Name = "label90";
+            this.label90.Size = new System.Drawing.Size(334, 13);
+            this.label90.TabIndex = 84;
+            this.label90.Text = "INTERVENCIÓN EN LA FORMACIÓN DE PERSONAL ACADÉMICO";
             // 
             // button72
             // 
@@ -2243,109 +2356,23 @@
             this.label89.TabIndex = 54;
             this.label89.Text = "Apoyo a la formación de profesores:";
             // 
-            // label90
+            // axAcroPDF1
             // 
-            this.label90.AutoSize = true;
-            this.label90.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.label90.Location = new System.Drawing.Point(345, 45);
-            this.label90.Name = "label90";
-            this.label90.Size = new System.Drawing.Size(334, 13);
-            this.label90.TabIndex = 84;
-            this.label90.Text = "INTERVENCIÓN EN LA FORMACIÓN DE PERSONAL ACADÉMICO";
+            this.axAcroPDF1.Enabled = true;
+            this.axAcroPDF1.Location = new System.Drawing.Point(556, 122);
+            this.axAcroPDF1.Name = "axAcroPDF1";
+            this.axAcroPDF1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axAcroPDF1.OcxState")));
+            this.axAcroPDF1.Size = new System.Drawing.Size(100, 21);
+            this.axAcroPDF1.TabIndex = 71;
             // 
-            // button86
+            // axAcroPDF2
             // 
-            this.button86.Location = new System.Drawing.Point(243, 1099);
-            this.button86.Name = "button86";
-            this.button86.Size = new System.Drawing.Size(75, 23);
-            this.button86.TabIndex = 88;
-            this.button86.Text = "Guardar";
-            this.button86.UseVisualStyleBackColor = true;
-            // 
-            // button87
-            // 
-            this.button87.Location = new System.Drawing.Point(568, 1099);
-            this.button87.Name = "button87";
-            this.button87.Size = new System.Drawing.Size(75, 23);
-            this.button87.TabIndex = 87;
-            this.button87.Text = "Siguiente";
-            this.button87.UseVisualStyleBackColor = true;
-            // 
-            // button88
-            // 
-            this.button88.Location = new System.Drawing.Point(821, 889);
-            this.button88.Name = "button88";
-            this.button88.Size = new System.Drawing.Size(75, 23);
-            this.button88.TabIndex = 86;
-            this.button88.Text = "Añadir otro";
-            this.button88.UseVisualStyleBackColor = true;
-            // 
-            // label91
-            // 
-            this.label91.AutoSize = true;
-            this.label91.BackColor = System.Drawing.Color.LightGray;
-            this.label91.Location = new System.Drawing.Point(75, 899);
-            this.label91.Name = "label91";
-            this.label91.Size = new System.Drawing.Size(108, 13);
-            this.label91.TabIndex = 85;
-            this.label91.Text = "Formador de Tutores:";
-            // 
-            // label92
-            // 
-            this.label92.AutoSize = true;
-            this.label92.BackColor = System.Drawing.Color.LightGray;
-            this.label92.Location = new System.Drawing.Point(75, 940);
-            this.label92.Name = "label92";
-            this.label92.Size = new System.Drawing.Size(115, 13);
-            this.label92.TabIndex = 89;
-            this.label92.Text = "Guías para el profesor:";
-            // 
-            // label93
-            // 
-            this.label93.AutoSize = true;
-            this.label93.BackColor = System.Drawing.Color.LightGray;
-            this.label93.Location = new System.Drawing.Point(75, 984);
-            this.label93.Name = "label93";
-            this.label93.Size = new System.Drawing.Size(211, 13);
-            this.label93.TabIndex = 90;
-            this.label93.Text = "Programas para la formación de profesores:";
-            // 
-            // label94
-            // 
-            this.label94.AutoSize = true;
-            this.label94.BackColor = System.Drawing.Color.LightGray;
-            this.label94.Location = new System.Drawing.Point(75, 1033);
-            this.label94.Name = "label94";
-            this.label94.Size = new System.Drawing.Size(111, 13);
-            this.label94.TabIndex = 91;
-            this.label94.Text = "Tutorías a profesores:";
-            // 
-            // button70
-            // 
-            this.button70.Location = new System.Drawing.Point(821, 1023);
-            this.button70.Name = "button70";
-            this.button70.Size = new System.Drawing.Size(75, 23);
-            this.button70.TabIndex = 94;
-            this.button70.Text = "Añadir otro";
-            this.button70.UseVisualStyleBackColor = true;
-            // 
-            // button71
-            // 
-            this.button71.Location = new System.Drawing.Point(821, 974);
-            this.button71.Name = "button71";
-            this.button71.Size = new System.Drawing.Size(75, 23);
-            this.button71.TabIndex = 93;
-            this.button71.Text = "Añadir otro";
-            this.button71.UseVisualStyleBackColor = true;
-            // 
-            // button89
-            // 
-            this.button89.Location = new System.Drawing.Point(821, 930);
-            this.button89.Name = "button89";
-            this.button89.Size = new System.Drawing.Size(75, 23);
-            this.button89.TabIndex = 92;
-            this.button89.Text = "Añadir otro";
-            this.button89.UseVisualStyleBackColor = true;
+            this.axAcroPDF2.Enabled = true;
+            this.axAcroPDF2.Location = new System.Drawing.Point(556, 180);
+            this.axAcroPDF2.Name = "axAcroPDF2";
+            this.axAcroPDF2.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axAcroPDF2.OcxState")));
+            this.axAcroPDF2.Size = new System.Drawing.Size(100, 23);
+            this.axAcroPDF2.TabIndex = 72;
             // 
             // Form2
             // 
@@ -2361,14 +2388,16 @@
             this.tabPage1.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
+            this.tabPage4.ResumeLayout(false);
+            this.tabPage4.PerformLayout();
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
             this.tabPage6.ResumeLayout(false);
             this.tabPage6.PerformLayout();
             this.tabPage7.ResumeLayout(false);
             this.tabPage7.PerformLayout();
-            this.tabPage4.ResumeLayout(false);
-            this.tabPage4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axAcroPDF1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axAcroPDF2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2578,5 +2607,8 @@
         private System.Windows.Forms.Button button87;
         private System.Windows.Forms.Button button88;
         private System.Windows.Forms.Label label91;
+        private AxAcroPDFLib.AxAcroPDF axAcroPDF2;
+        private AxAcroPDFLib.AxAcroPDF axAcroPDF1;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
