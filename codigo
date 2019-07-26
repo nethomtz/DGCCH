@@ -30,7 +30,7 @@
             
             
             
-            private void Button3_Click(object sender, EventArgs e)para poder seleccionar el archivo
+            private void Button3_Click(object sender, EventArgs e)//para poder seleccionar el archivo
         {
             openFileDialog1.InitialDirectory = "c:\\";
             openFileDialog1.Filter = "Todos los archivios (*.*)|*.*";//define que tipo de archivo se puede ingresar
@@ -43,3 +43,20 @@
                 axAcroPDF1.LoadFile(openFileDialog1.FileName);
             }
         }
+        
+        
+         private void Refresh() //// refresaca cada archivo que se esta ingresando
+        {
+            using (Model.registropruebaEntities2 db = new Model.registropruebaEntities2())
+            {
+                var lst = from d in db.Licenciaturas
+                          select new { d.nomLicenciatura };
+                dataGridView1.DataSource = lst.ToList();
+            }
+        }
+        
+        
+        
+        
+        
+        
