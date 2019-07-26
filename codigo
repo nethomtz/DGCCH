@@ -26,3 +26,20 @@
 
             }
             Refresh();
+            
+            
+            
+            
+            private void Button3_Click(object sender, EventArgs e)para poder seleccionar el archivo
+        {
+            openFileDialog1.InitialDirectory = "c:\\";
+            openFileDialog1.Filter = "Todos los archivios (*.*)|*.*";//define que tipo de archivo se puede ingresar
+            openFileDialog1.FilterIndex = 1;
+            openFileDialog1.RestoreDirectory = true;
+
+            if(openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                textFile.Text = openFileDialog1.FileName;
+                axAcroPDF1.LoadFile(openFileDialog1.FileName);
+            }
+        }
