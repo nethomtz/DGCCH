@@ -1,0 +1,28 @@
+ private void Button4_Click(object sender, EventArgs e)//guardar archivo en el boton para guardar
+        {
+            if(textName.Text.Trim().Equals("")| textFile.Text.Trim().Equals(""))
+            {
+                MessageBox.Show("El nombre es Obligatorio");
+                return;
+            }
+
+            byte[] file = null;
+            Stream myStream = openFileDialog1.OpenFile();
+            using (MemoryStream ms = new MemoryStream())
+            {
+                myStream.CopyTo(ms);
+                file = ms.ToArray();
+            }
+            using (Model.registropruebaEntities2 db = new Model.registropruebaEntities2())
+            {
+                Model.documents oDocument = new Model.documents();
+                oDocument.name = textName.Text.Trim();
+                oDocument.doc = file;
+                oDocument.realName = openFileDialog1.SafeFileName;
+               // oLicenciaturas.idtrabajador = label---;/// aqui ira loq ue esta en el label
+
+                db.documents.Add(oDocument);
+                db.SaveChanges();
+
+            }
+            Refresh();
