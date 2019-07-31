@@ -33,9 +33,10 @@
             this.usuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usuarioToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.curriculumToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.concursoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.directorioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pDFPRUEBAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,7 +45,8 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.usuarioToolStripMenuItem,
             this.concursoToolStripMenuItem,
-            this.directorioToolStripMenuItem});
+            this.directorioToolStripMenuItem,
+            this.pDFPRUEBAToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(522, 24);
@@ -76,6 +78,13 @@
             this.curriculumToolStripMenuItem.Text = "Curriculum";
             this.curriculumToolStripMenuItem.Click += new System.EventHandler(this.curriculumToolStripMenuItem_Click_1);
             // 
+            // cerrarSesiónToolStripMenuItem
+            // 
+            this.cerrarSesiónToolStripMenuItem.Name = "cerrarSesiónToolStripMenuItem";
+            this.cerrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cerrarSesiónToolStripMenuItem.Text = "Cerrar Sesión";
+            this.cerrarSesiónToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesiónToolStripMenuItem_Click);
+            // 
             // concursoToolStripMenuItem
             // 
             this.concursoToolStripMenuItem.Name = "concursoToolStripMenuItem";
@@ -90,12 +99,12 @@
             this.directorioToolStripMenuItem.Text = "Directorio";
             this.directorioToolStripMenuItem.Click += new System.EventHandler(this.directorioToolStripMenuItem_Click);
             // 
-            // cerrarSesiónToolStripMenuItem
+            // pDFPRUEBAToolStripMenuItem
             // 
-            this.cerrarSesiónToolStripMenuItem.Name = "cerrarSesiónToolStripMenuItem";
-            this.cerrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.cerrarSesiónToolStripMenuItem.Text = "Cerrar Sesión";
-            this.cerrarSesiónToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesiónToolStripMenuItem_Click);
+            this.pDFPRUEBAToolStripMenuItem.Name = "pDFPRUEBAToolStripMenuItem";
+            this.pDFPRUEBAToolStripMenuItem.Size = new System.Drawing.Size(86, 20);
+            this.pDFPRUEBAToolStripMenuItem.Text = "PDF PRUEBA";
+            this.pDFPRUEBAToolStripMenuItem.Click += new System.EventHandler(this.PDFPRUEBAToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -127,6 +136,7 @@
         private System.Windows.Forms.ToolStripMenuItem usuarioToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem curriculumToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pDFPRUEBAToolStripMenuItem;
     }
 }
 

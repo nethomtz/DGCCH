@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="registropruebaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="datosUsuario">
+    <Key>
+      <PropertyRef Name="idtrabajador" />
+    </Key>
+    <Property Name="idtrabajador" Type="varchar" MaxLength="6" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Direccion" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Telefono" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Celular" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="RFC" Type="varchar" MaxLength="13" Nullable="false" />
+    <Property Name="Categoria" Type="varchar" MaxLength="30" />
+    <Property Name="Plantel" Type="varchar" MaxLength="30" />
+    <Property Name="Correo" Type="varchar" MaxLength="30" />
+    <Property Name="PDF" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="documents">
+    <Key>
+      <PropertyRef Name="int" />
+    </Key>
+    <Property Name="int" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="100" />
+    <Property Name="realName" Type="varchar" MaxLength="100" />
+    <Property Name="doc" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Licenciaturas">
+    <Key>
+      <PropertyRef Name="idLicenciatura" />
+    </Key>
+    <Property Name="idLicenciatura" Type="int" Nullable="false" />
+    <Property Name="idtrabajador" Type="varchar" MaxLength="6" />
+    <Property Name="nomLicenciatura" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="PDF" Type="varbinary(max)" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" />
+    <Property Name="nombrePDF" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK_Licenciaturas_idTrabajadaor">
+    <End Role="datosUsuario" Type="Self.datosUsuario" Multiplicity="0..1" />
+    <End Role="Licenciaturas" Type="Self.Licenciaturas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="datosUsuario">
+        <PropertyRef Name="idtrabajador" />
+      </Principal>
+      <Dependent Role="Licenciaturas">
+        <PropertyRef Name="idtrabajador" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="registropruebaModelStoreContainer">
+    <EntitySet Name="datosUsuario" EntityType="Self.datosUsuario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="documents" EntityType="Self.documents" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Licenciaturas" EntityType="Self.Licenciaturas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Licenciaturas_idTrabajadaor" Association="Self.FK_Licenciaturas_idTrabajadaor">
+      <End Role="datosUsuario" EntitySet="datosUsuario" />
+      <End Role="Licenciaturas" EntitySet="Licenciaturas" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

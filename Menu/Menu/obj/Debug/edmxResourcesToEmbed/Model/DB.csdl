@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="registropruebaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="datosUsuario">
+    <Key>
+      <PropertyRef Name="idtrabajador" />
+    </Key>
+    <Property Name="idtrabajador" Type="String" MaxLength="6" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Direccion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Telefono" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Celular" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="RFC" Type="String" MaxLength="13" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Categoria" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Plantel" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Correo" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="PDF" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Licenciaturas" Relationship="Self.FK_Licenciaturas_idTrabajadaor" FromRole="datosUsuario" ToRole="Licenciaturas" />
+  </EntityType>
+  <EntityType Name="documents">
+    <Key>
+      <PropertyRef Name="int" />
+    </Key>
+    <Property Name="int" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="realName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="doc" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Licenciaturas">
+    <Key>
+      <PropertyRef Name="idLicenciatura" />
+    </Key>
+    <Property Name="idLicenciatura" Type="Int32" Nullable="false" />
+    <Property Name="idtrabajador" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="nomLicenciatura" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PDF" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="nombrePDF" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="datosUsuario" Relationship="Self.FK_Licenciaturas_idTrabajadaor" FromRole="Licenciaturas" ToRole="datosUsuario" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_Licenciaturas_idTrabajadaor">
+    <End Role="datosUsuario" Type="Self.datosUsuario" Multiplicity="0..1" />
+    <End Role="Licenciaturas" Type="Self.Licenciaturas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="datosUsuario">
+        <PropertyRef Name="idtrabajador" />
+      </Principal>
+      <Dependent Role="Licenciaturas">
+        <PropertyRef Name="idtrabajador" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="registropruebaEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="datosUsuario" EntityType="Self.datosUsuario" />
+    <EntitySet Name="documents" EntityType="Self.documents" />
+    <EntitySet Name="Licenciaturas" EntityType="Self.Licenciaturas" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <AssociationSet Name="FK_Licenciaturas_idTrabajadaor" Association="Self.FK_Licenciaturas_idTrabajadaor">
+      <End Role="datosUsuario" EntitySet="datosUsuario" />
+      <End Role="Licenciaturas" EntitySet="Licenciaturas" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

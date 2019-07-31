@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.button21 = new System.Windows.Forms.Button();
@@ -233,8 +232,6 @@
             this.button85 = new System.Windows.Forms.Button();
             this.label89 = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.axAcroPDF1 = new AxAcroPDFLib.AxAcroPDF();
-            this.axAcroPDF2 = new AxAcroPDFLib.AxAcroPDF();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage3.SuspendLayout();
@@ -242,8 +239,6 @@
             this.tabPage5.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.tabPage7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.axAcroPDF1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axAcroPDF2)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -266,8 +261,6 @@
             // 
             this.tabPage1.AutoScroll = true;
             this.tabPage1.BackColor = System.Drawing.Color.White;
-            this.tabPage1.Controls.Add(this.axAcroPDF2);
-            this.tabPage1.Controls.Add(this.axAcroPDF1);
             this.tabPage1.Controls.Add(this.button21);
             this.tabPage1.Controls.Add(this.button22);
             this.tabPage1.Controls.Add(this.button19);
@@ -2356,24 +2349,6 @@
             this.label89.TabIndex = 54;
             this.label89.Text = "Apoyo a la formación de profesores:";
             // 
-            // axAcroPDF1
-            // 
-            this.axAcroPDF1.Enabled = true;
-            this.axAcroPDF1.Location = new System.Drawing.Point(556, 122);
-            this.axAcroPDF1.Name = "axAcroPDF1";
-            this.axAcroPDF1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axAcroPDF1.OcxState")));
-            this.axAcroPDF1.Size = new System.Drawing.Size(100, 21);
-            this.axAcroPDF1.TabIndex = 71;
-            // 
-            // axAcroPDF2
-            // 
-            this.axAcroPDF2.Enabled = true;
-            this.axAcroPDF2.Location = new System.Drawing.Point(556, 180);
-            this.axAcroPDF2.Name = "axAcroPDF2";
-            this.axAcroPDF2.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axAcroPDF2.OcxState")));
-            this.axAcroPDF2.Size = new System.Drawing.Size(100, 23);
-            this.axAcroPDF2.TabIndex = 72;
-            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2396,8 +2371,6 @@
             this.tabPage6.PerformLayout();
             this.tabPage7.ResumeLayout(false);
             this.tabPage7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.axAcroPDF1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axAcroPDF2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2607,8 +2580,6 @@
         private System.Windows.Forms.Button button87;
         private System.Windows.Forms.Button button88;
         private System.Windows.Forms.Label label91;
-        private AxAcroPDFLib.AxAcroPDF axAcroPDF2;
-        private AxAcroPDFLib.AxAcroPDF axAcroPDF1;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }

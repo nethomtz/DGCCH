@@ -64,5 +64,11 @@ namespace Menu
         {
 
         }
+
+        private void PDFPRUEBAToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form pdf = new PSPDF();
+            pdf.Show();
+        }
     }
 }

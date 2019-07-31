@@ -22,10 +22,16 @@ C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\obj\Debug\AxInterop.AcroPD
 C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\obj\Debug\Menu.csproj.ResolveComReference.cache
 C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\obj\Debug\Menu.Form1.resources
 C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\obj\Debug\Menu.Concurso.resources
-C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\obj\Debug\Menu.Form2.resources
 C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\obj\Debug\Menu.Form3.resources
 C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\obj\Debug\Menu.Properties.Resources.resources
 C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\obj\Debug\Menu.csproj.GenerateResource.cache
 C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\obj\Debug\Menu.csproj.CoreCompileInputs.cache
 C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\obj\Debug\Menu.exe
 C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\obj\Debug\Menu.pdb
+C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\obj\Debug\Menu.Form2.resources
+C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\obj\Debug\Menu.PSPDF.resources
+C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\bin\Debug\EntityFramework.dll
+C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\bin\Debug\EntityFramework.xml
+C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\obj\Debug\Menu.csproj.CopyComplete
