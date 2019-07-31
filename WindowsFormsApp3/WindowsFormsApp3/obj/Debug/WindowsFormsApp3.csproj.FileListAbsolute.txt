@@ -1,0 +1,10 @@
+C:\Users\Programador\Documents\GitHub\DGCCH\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\Programador\Documents\GitHub\DGCCH\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\Programador\Documents\GitHub\DGCCH\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\Programador\Documents\GitHub\DGCCH\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+C:\Users\Programador\Documents\GitHub\DGCCH\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Principal.resources
+C:\Users\Programador\Documents\GitHub\DGCCH\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\Programador\Documents\GitHub\DGCCH\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\Programador\Documents\GitHub\DGCCH\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\Programador\Documents\GitHub\DGCCH\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\Programador\Documents\GitHub\DGCCH\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb

@@ -60,7 +60,7 @@ namespace Menu
         {
             OpenFileDialog Explorador = new OpenFileDialog();
 
-            string Direccion = "All files |*.*";
+            string Direccion = "All files |*.*"; 
 
             if (Explorador.ShowDialog() == System.Windows.Forms.DialogResult.OK)
 
