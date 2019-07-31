@@ -1,0 +1,62 @@
+ private void Button4_Click(object sender, EventArgs e)//guardar archivo en el boton para guardar
+        {
+            if(textName.Text.Trim().Equals("")| textFile.Text.Trim().Equals(""))
+            {
+                MessageBox.Show("El nombre es Obligatorio");
+                return;
+            }
+
+            byte[] file = null;
+            Stream myStream = openFileDialog1.OpenFile();
+            using (MemoryStream ms = new MemoryStream())
+            {
+                myStream.CopyTo(ms);
+                file = ms.ToArray();
+            }
+            using (Model.registropruebaEntities2 db = new Model.registropruebaEntities2())
+            {
+                Model.documents oDocument = new Model.documents();
+                oDocument.name = textName.Text.Trim();
+                oDocument.doc = file;
+                oDocument.realName = openFileDialog1.SafeFileName;
+               // oLicenciaturas.idtrabajador = label---;/// aqui ira loq ue esta en el label
+
+                db.documents.Add(oDocument);
+                db.SaveChanges();
+
+            }
+            Refresh();
+            
+            
+            
+            
+            private void Button3_Click(object sender, EventArgs e)//para poder seleccionar el archivo
+        {
+            openFileDialog1.InitialDirectory = "c:\\";
+            openFileDialog1.Filter = "Todos los archivios (*.*)|*.*";//define que tipo de archivo se puede ingresar
+            openFileDialog1.FilterIndex = 1;
+            openFileDialog1.RestoreDirectory = true;
+
+            if(openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                textFile.Text = openFileDialog1.FileName;
+                axAcroPDF1.LoadFile(openFileDialog1.FileName);
+            }
+        }
+        
+        
+         private void Refresh() //// refresaca cada archivo que se esta ingresando
+        {
+            using (Model.registropruebaEntities2 db = new Model.registropruebaEntities2())
+            {
+                var lst = from d in db.Licenciaturas
+                          select new { d.nomLicenciatura };
+                dataGridView1.DataSource = lst.ToList();
+            }
+        }
+        
+        
+        
+        
+        
+        
