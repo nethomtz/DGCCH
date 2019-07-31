@@ -112,7 +112,7 @@ namespace Menu
 
         private void Button3_Click(object sender, EventArgs e)
         {
-            openFileDialog1.InitialDirectory = "C:\Users\USUARIO\Desktop";
+            openFileDialog1.InitialDirectory = "C:\\";
             openFileDialog1.Filter = "Todos los archivios (*.*)|*.*";//define que tipo de archivo se puede ingresar
             openFileDialog1.FilterIndex = 1;
             openFileDialog1.RestoreDirectory = true;
@@ -172,27 +172,20 @@ namespace Menu
         {
 
         }
-        static void Main (String[] args)
-        {
-            string tabla = comboBox2.Text;
-            switch (tabla)
-            {
-                case "Licenciatura":
-                    using (Model.registropruebaEntities2 db = new Model.registropruebaEntities2())
-                    {
-                        Model.Licenciaturas oLicenciatura = new Model.Licenciaturas();
-                        oLicenciatura.name = textName.Text.Trim();
-                        oLicenciatura.doc = file;
-                        oLicenciatura.realName = openFileDialog1.SafeFileName;
-                        break;
-                case "Maestria":
-                    break;
-            }
-        }
+        
 
         private void ComboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void BtnActualizar_Click(object sender, EventArgs e)
+        {
+            SqlConnection conn = new SqlConnection(@"Data Source = (localdb)\Servidor; Initial Catalog = registroprueba; Integrated Security = True");
+           
+            string actualizar = "update pruebaInsert = " + txtNombre.Text
+                + " where  id_insert = " + txtId.Text;
+            if ( )
         }
     }
 }
