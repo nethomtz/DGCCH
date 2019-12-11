@@ -35,3 +35,7 @@ C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\bin\Debug\EntityFramework.
 C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\bin\Debug\EntityFramework.xml
 C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\obj\Debug\Menu.csproj.CopyComplete
+C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\bin\Debug\itextsharp.dll
+C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\bin\Debug\itextsharp.xml
+C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\obj\Debug\Menu.PDF.resources
+C:\Users\Programador\Documents\GitHub\DGCCH\Menu\Menu\obj\Debug\Menu.PDFS.resources
